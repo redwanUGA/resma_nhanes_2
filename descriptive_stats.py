@@ -97,4 +97,7 @@ def categorize_amalgam(surfaces: float):
 
 if __name__ == "__main__":
     combined_df, summary_df = process_cycles()
+    # Save full combined dataset and summary statistics to CSV files
+    combined_df.to_csv("combined_dataset.csv", index=False)
+    summary_df.to_csv("summary_statistics.csv", index=False)
     print(summary_df.head())
