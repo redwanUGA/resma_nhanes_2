@@ -117,8 +117,11 @@ def main():
     combined, _ = process_cycles()
     combined = prepare_groups(combined)
     ttest_df = run_t_tests(combined)
+    # Save t-test results to CSV
+    ttest_df.to_csv("ttest_results.csv", index=False)
     print(ttest_df.head())
     # anova_df = survey_weighted_anova(combined)
+    # anova_df.to_csv("anova_results.csv", index=False)
     # print(anova_df.head())
 
 
