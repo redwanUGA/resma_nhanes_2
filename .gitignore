@@ -3,3 +3,4 @@ nhanes_data/
 combined_dataset.csv
 summary_statistics.csv
 output/
+ttest_results.csv

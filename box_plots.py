@@ -27,7 +27,7 @@ def main():
             plt.tight_layout()
             fname = f"boxplot_{marker}_{cycle.replace('-', '')}.png"
             plt.savefig(os.path.join(out_dir, fname))
-            plt.close()
+            plt.close('all')
 
 
 if __name__ == "__main__":

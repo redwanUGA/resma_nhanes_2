@@ -18,15 +18,13 @@ The scripts rely on the following Python packages:
 - `scipy`
 - `pyreadstat`
 - `requests`
-- `rpy2` (optional, for survey-weighted ANOVA)
+- `statsmodels` (for survey-weighted ANOVA)
 
 Install the dependencies with `pip`:
 
 ```bash
-pip install pandas numpy scipy pyreadstat requests rpy2
+pip install pandas numpy scipy matplotlib pyreadstat requests statsmodels
 ```
-
-Running the ANOVA portion requires a working R installation with the `survey` package available.
 
 ## Usage
 
@@ -50,6 +48,13 @@ Running the ANOVA portion requires a working R installation with the `survey` pa
    python analysis.py
    ```
    T‑test results are written to `ttest_results.csv`.
+
+4. **Generate box plots**
+
+   ```bash
+   python box_plots.py
+   ```
+   Figures are saved into the `output` directory.
 
 The notebook `NHANES_HG_OPT.ipynb` can be used to explore or reproduce the workflow interactively.
 
