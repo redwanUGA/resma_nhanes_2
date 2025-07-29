@@ -1,12 +1,13 @@
+"""Analysis script for NHANES inflammation markers."""
+
 import numpy as np
 import pandas as pd
 from scipy.stats import ttest_ind
-import rpy2.robjects as ro
-from rpy2.robjects import pandas2ri
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
 
 from descriptive_stats import process_cycles, categorize_amalgam
 
-pandas2ri.activate()
 
 
 def prepare_groups(df: pd.DataFrame) -> pd.DataFrame:
@@ -65,52 +66,38 @@ def run_t_tests(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def survey_weighted_anova(df: pd.DataFrame) -> pd.DataFrame:
-    markers = ["NLR", "MLR", "PLR", "SII"]
-    cols = [
-        "WTMEC2YR",
-        "SDMVSTRA",
-        "SDMVPSU",
-        "Amalgam Group",
-        "Cycle",
-        "Gender",
-        "Race",
-        "AgeGroup",
-    ] + markers
-    df_model = df[cols].dropna()
-    ro.globalenv["df_r"] = pandas2ri.py2rpy(df_model)
+    """Approximate survey-weighted ANOVA using statsmodels."""
 
-    ro.r("suppressMessages(library(survey))")
-    ro.r("anova_all <- data.frame()")
-    ro.r(
-        """
-cycles <- unique(df_r$Cycle)
-markers <- c("NLR", "MLR", "PLR", "SII")
-for (cy in cycles) {
-  df_c <- subset(df_r, Cycle == cy)
-  df_c$`Amalgam Group` <- factor(df_c$`Amalgam Group`, levels=c("None","Low","Medium","High"))
-  df_c$Gender <- factor(df_c$Gender)
-  df_c$Race <- factor(df_c$Race)
-  df_c$AgeGroup <- factor(df_c$AgeGroup)
-  if (length(unique(df_c$`Amalgam Group`)) < 2 ||
-      length(unique(df_c$Gender)) < 2 ||
-      length(unique(df_c$Race)) < 2 ||
-      length(unique(df_c$AgeGroup)) < 2) next
-  design <- svydesign(id=~SDMVPSU, strata=~SDMVSTRA, weights=~WTMEC2YR, data=df_c, nest=TRUE)
-  for (m in markers) {
-    form_str <- paste0(m, " ~ `Amalgam Group` + Gender + Race + AgeGroup")
-    model <- svyglm(as.formula(form_str), design=design)
-    for (term in c("Amalgam Group", "Gender", "Race", "AgeGroup")) {
-      test <- regTermTest(model, as.formula(paste0("~`", term, "`")))
-      fstat <- round(test$Ftest["value"], 3)
-      pval <- round(test$p, 5)
-      sig <- ifelse(pval < 0.05, TRUE, FALSE)
-      anova_all <- rbind(anova_all, data.frame(Cycle=cy, Marker=m, Term=term, F_stat=fstat, p_value=pval, Significant=sig))
-    }
-  }
-}
-"""
-    )
-    return pandas2ri.rpy2py(ro.globalenv["anova_all"])
+    markers = ["NLR", "MLR", "PLR", "SII"]
+    df = df.rename(columns={"Amalgam Group": "Amalgam_Group"})
+
+    results = []
+    for cycle, df_cycle in df.groupby("Cycle"):
+        for marker in markers:
+            cols = ["WTMEC2YR", "Amalgam_Group", "Gender", "Race", "AgeGroup", marker]
+            df_model = df_cycle[cols].dropna()
+            if df_model.empty:
+                continue
+            formula = f"{marker} ~ Amalgam_Group + Gender + Race + AgeGroup"
+            try:
+                model = smf.wls(formula, data=df_model, weights=df_model["WTMEC2YR"]).fit()
+                table = sm.stats.anova_lm(model, typ=2)
+            except Exception as exc:  # pragma: no cover - handle regression issues
+                print(f"ANOVA failed for {cycle} {marker}: {exc}")
+                continue
+            for term in ["Amalgam_Group", "Gender", "Race", "AgeGroup"]:
+                if term in table.index:
+                    pval = table.loc[term, "PR(>F)"]
+                    fstat = table.loc[term, "F"]
+                    results.append({
+                        "Cycle": cycle,
+                        "Marker": marker,
+                        "Term": term.replace("_", " "),
+                        "F_stat": round(fstat, 3),
+                        "p_value": round(pval, 5),
+                        "Significant": pval < 0.05,
+                    })
+    return pd.DataFrame(results)
 
 
 def main():
