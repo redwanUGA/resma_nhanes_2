@@ -8,6 +8,7 @@ This repository contains Python scripts and a Jupyter notebook used to download 
 - `descriptive_stats.py` – merges demographic, dental and complete blood count files, computes summary statistics for inflammation markers and exports CSV files.
 - `analysis.py` – prepares analysis groups and performs t‑tests (and optional survey‑weighted ANOVA via R).
 - `NHANES_HG_OPT.ipynb` – original notebook that demonstrates the workflow.
+- `run_workflow.sh` – runs the entire workflow in one command.
 
 ## Setup
 
@@ -27,6 +28,12 @@ pip install pandas numpy scipy matplotlib pyreadstat requests statsmodels
 ```
 
 ## Usage
+
+To run every step in sequence, execute:
+```bash
+./run_workflow.sh
+```
+
 
 1. **Download the NHANES data**
 
