@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from descriptive_stats import categorize_amalgam
+from analysis import prepare_groups
 
 
 def slugify(value: str) -> str:
@@ -15,6 +16,8 @@ def slugify(value: str) -> str:
 def main():
     df = pd.read_csv("combined_dataset.csv")
     df["Amalgam Group"] = df["amalgam_surfaces"].apply(categorize_amalgam)
+    # Ensure grouping columns are present for subsetting
+    df = prepare_groups(df)
     out_dir = "output"
     os.makedirs(out_dir, exist_ok=True)
 
