@@ -21,10 +21,10 @@ The scripts rely on the following Python packages:
 - `requests`
 - `statsmodels` (for survey-weighted ANOVA)
 
-Install the dependencies with `pip`:
+All required packages are listed in `requirements.txt`. Install them with:
 
 ```bash
-pip install pandas numpy scipy matplotlib pyreadstat requests statsmodels
+pip install -r requirements.txt
 ```
 
 ## Usage

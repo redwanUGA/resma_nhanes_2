@@ -2,6 +2,9 @@
 # Run the full NHANES inflammation analysis workflow
 set -euo pipefail
 
+# Step 0: Install Python dependencies
+python3 -m pip install -r requirements.txt
+
 # Step 1: Download data
 python3 download.py
 
