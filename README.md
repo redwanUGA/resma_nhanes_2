@@ -61,7 +61,8 @@ To run every step in sequence, execute:
    ```bash
    python box_plots.py
    ```
-   Figures are saved into the `output` directory.
+   This script now reads `ttest_results.csv` and only creates box plots for
+   significant comparisons. Figures are saved into the `output` directory.
 
 The notebook `NHANES_HG_OPT.ipynb` can be used to explore or reproduce the workflow interactively.
 
