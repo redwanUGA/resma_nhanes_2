@@ -95,9 +95,47 @@ def categorize_amalgam(surfaces: float):
     return "High"
 
 
+def compute_demographic_stats(df: pd.DataFrame) -> pd.DataFrame:
+    """Calculate marker statistics stratified by demographic groups."""
+    # Import lazily to avoid circular dependency when analysis.py imports this module
+    from analysis import prepare_groups
+
+    df = prepare_groups(df)
+
+    markers = ["NLR", "MLR", "PLR", "SII"]
+    demo_vars = ["Gender", "Race", "AgeGroup"]
+
+    results = []
+    for cycle, df_cycle in df.groupby("Cycle"):
+        for demo in demo_vars:
+            for group_val, df_sub in df_cycle.groupby(demo):
+                if pd.isna(group_val):
+                    continue
+                for marker in markers:
+                    sub = df_sub[[marker, "WTMEC2YR"]].dropna()
+                    if sub.empty:
+                        continue
+                    m, sd, lo, hi = weighted_stats(sub[marker], sub["WTMEC2YR"])
+                    results.append({
+                        "Cycle": cycle,
+                        "Demographic": demo,
+                        "Group": group_val,
+                        "Marker": marker,
+                        "Mean": m,
+                        "SD": sd,
+                        "CI_Low": lo,
+                        "CI_High": hi,
+                        "Sample Size": len(sub),
+                    })
+    return pd.DataFrame(results)
+
+
 if __name__ == "__main__":
     combined_df, summary_df = process_cycles()
     # Save full combined dataset and summary statistics to CSV files
     combined_df.to_csv("combined_dataset.csv", index=False)
     summary_df.to_csv("summary_statistics.csv", index=False)
+    demo_stats_df = compute_demographic_stats(combined_df)
+    demo_stats_df.to_csv("demographic_statistics.csv", index=False)
     print(summary_df.head())
+    print(demo_stats_df.head())
