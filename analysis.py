@@ -31,7 +31,7 @@ def prepare_groups(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def run_t_tests(df: pd.DataFrame) -> pd.DataFrame:
-    markers = ["NLR", "MLR", "PLR", "SII"]
+    markers = ["NLR", "MLR", "PLR", "SII", "CRP", "BloodMercury"]
     comparisons = [("None", "Low"), ("None", "Medium"), ("None", "High")]
     strata_vars = ["Gender", "Race", "AgeGroup"]
 
@@ -68,7 +68,7 @@ def run_t_tests(df: pd.DataFrame) -> pd.DataFrame:
 def survey_weighted_anova(df: pd.DataFrame) -> pd.DataFrame:
     """Approximate survey-weighted ANOVA using statsmodels."""
 
-    markers = ["NLR", "MLR", "PLR", "SII"]
+    markers = ["NLR", "MLR", "PLR", "SII", "CRP", "BloodMercury"]
     df = df.rename(columns={"Amalgam Group": "Amalgam_Group"})
 
     results = []
