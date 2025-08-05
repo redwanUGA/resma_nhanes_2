@@ -1,13 +1,13 @@
 # NHANES Inflammation Analysis
 
-This repository contains Python scripts and a Jupyter notebook used to download and analyze data from the National Health and Nutrition Examination Survey (NHANES). The analysis focuses on inflammation markers such as Neutrophil-to-Lymphocyte Ratio (NLR), Monocyte-to-Lymphocyte Ratio (MLR), Platelet-to-Lymphocyte Ratio (PLR), the Systemic Immune-Inflammation Index (SII), C‑Reactive Protein (CRP) and blood mercury levels in relation to dental amalgam surfaces.
+This repository provides Python scripts to download and analyze data from the National Health and Nutrition Examination Survey (NHANES). The analysis focuses on inflammation markers such as Neutrophil-to-Lymphocyte Ratio (NLR), Monocyte-to-Lymphocyte Ratio (MLR), Platelet-to-Lymphocyte Ratio (PLR), the Systemic Immune-Inflammation Index (SII), C‑Reactive Protein (CRP) and blood mercury levels in relation to dental amalgam surfaces.
 
 ## Repository contents
 
-- `download.py` – downloads the required NHANES XPT files for each cycle.
-- `descriptive_stats.py` – merges demographic, dental and complete blood count files, computes summary statistics for inflammation markers (including CRP and blood mercury) and exports CSV files.
-- `analysis.py` – prepares analysis groups and performs t‑tests (including CRP and blood mercury) and optional survey‑weighted ANOVA via R.
-- `NHANES_HG_OPT.ipynb` – original notebook that demonstrates the workflow.
+- `download.py` – downloads the required NHANES XPT files for each cycle (1999–2018).
+- `descriptive_stats.py` – merges demographic, dental, complete blood count, CRP and mercury files, computes inflammation markers and exports `combined_dataset.csv`, `summary_statistics.csv` and `demographic_statistics.csv`.
+- `analysis.py` – prepares analysis groups and performs t‑tests (including CRP and blood mercury) with an optional survey‑weighted ANOVA using `statsmodels`; results are saved to `ttest_results.csv`.
+- `box_plots.py` – reads `ttest_results.csv` and generates box plots for significant comparisons, saving figures to the `output` directory.
 - `run_workflow.sh` – runs the entire workflow in one command.
 
 ## Setup
@@ -17,6 +17,7 @@ The scripts rely on the following Python packages:
 - `pandas`
 - `numpy`
 - `scipy`
+- `matplotlib`
 - `pyreadstat`
 - `requests`
 - `statsmodels` (for survey-weighted ANOVA)
@@ -47,24 +48,21 @@ To run every step in sequence, execute:
    ```bash
    python descriptive_stats.py
    ```
-   This produces `combined_dataset.csv` and `summary_statistics.csv`.
+   Produces `combined_dataset.csv`, `summary_statistics.csv` and `demographic_statistics.csv`.
 
 3. **Run analyses**
 
    ```bash
    python analysis.py
    ```
-   T‑test results—including CRP and blood mercury comparisons—are written to `ttest_results.csv`.
+   Writes t‑test results to `ttest_results.csv`.
 
 4. **Generate box plots**
 
    ```bash
    python box_plots.py
    ```
-   This script now reads `ttest_results.csv` and only creates box plots for
-   significant comparisons. Figures are saved into the `output` directory.
-
-The notebook `NHANES_HG_OPT.ipynb` can be used to explore or reproduce the workflow interactively.
+   Reads `ttest_results.csv` and saves figures for significant comparisons to the `output` directory.
 
 ## License
 
