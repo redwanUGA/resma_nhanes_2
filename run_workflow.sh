@@ -11,8 +11,11 @@ python3 download.py
 # Step 2: Generate descriptive statistics
 python3 descriptive_stats.py
 
-# Step 3: Run analyses
+# Step 3: Run t-test analyses
 python3 analysis.py
 
-# Step 4: Generate box plots
+# Step 4: Run regression models
+python3 regression_models.py
+
+# Step 5: Generate box plots
 python3 box_plots.py
