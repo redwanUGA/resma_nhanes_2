@@ -8,8 +8,7 @@ CBC_DEMO_DENTAL_FILES = {
     "1999-2000": ("L40_0.xpt", "DEMO.xpt", "OHXDENT.xpt", "LAB11.xpt", "LAB06HM.xpt"),
     "2001-2002": ("L25_B.xpt", "DEMO_B.xpt", "OHXDEN_B.xpt", "L11_B.xpt", "L06_2_B.xpt"),
     "2003-2004": ("L25_C.xpt", "DEMO_C.xpt", "OHXDEN_C.xpt", "L11_C.xpt", "L06BMT_C.xpt"),
-    "2005-2006": ("CBC_D.xpt", "DEMO_D.xpt", "OHXDEN_D.xpt", "CRP_D.xpt", "PbCd_D.xpt"),
-    "2007-2008": ("CBC_E.xpt", "DEMO_E.xpt", "OHXDEN_E.xpt", "CRP_E.xpt", "PbCd_E.xpt"),
+    # Dental exams were not conducted in 2005-2006 and 2007-2008
     "2009-2010": ("CBC_F.xpt", "DEMO_F.xpt", "OHXDEN_F.xpt", "CRP_F.xpt", "PbCd_F.xpt"),
     "2011-2012": ("CBC_G.xpt", "DEMO_G.xpt", "OHXDEN_G.xpt", "CRP_G.xpt", "PbCd_G.xpt"),
     "2013-2014": ("CBC_H.xpt", "DEMO_H.xpt", "OHXDEN_H.xpt", "CRP_H.xpt", "PBCD_H.xpt"),
