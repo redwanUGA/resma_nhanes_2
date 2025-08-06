@@ -44,7 +44,8 @@ FILE_SUFFIXES = {
     },
     "2005-2006": {
         "Demographics": "DEMO_D.xpt",
-        "Dental": "OHXDEN_D.xpt",
+        # No dental examination data released for this cycle
+        "Dental": None,
         "CRP": "CRP_D.xpt",
         "Mercury": "PbCd_D.xpt",
         "BMI": "BMX_D.xpt",
@@ -53,7 +54,8 @@ FILE_SUFFIXES = {
     },
     "2007-2008": {
         "Demographics": "DEMO_E.xpt",
-        "Dental": "OHXDEN_E.xpt",
+        # No dental examination data released for this cycle
+        "Dental": None,
         "CRP": "CRP_E.xpt",
         "Mercury": "PbCd_E.xpt",
         "BMI": "BMX_E.xpt",
@@ -132,6 +134,9 @@ def download_all(data_dir="nhanes_data"):
         print(f"\nDownloading files for {cycle}")
         base_url = BASE_URLS[cycle]
         for label, filename in FILE_SUFFIXES[cycle].items():
+            if not filename:
+                print(f"Skipping {label}: no file for this cycle")
+                continue
             url = base_url + filename
             save_path = os.path.join(data_dir, filename)
             try:

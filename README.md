@@ -1,6 +1,7 @@
 # NHANES Inflammation Analysis
 
 This repository provides Python scripts to download and analyze data from the National Health and Nutrition Examination Survey (NHANES). The analysis focuses on inflammation markers such as Neutrophil-to-Lymphocyte Ratio (NLR), Monocyte-to-Lymphocyte Ratio (MLR), Platelet-to-Lymphocyte Ratio (PLR), the Systemic Immune-Inflammation Index (SII), C‑Reactive Protein (CRP) and blood mercury levels in relation to dental amalgam surfaces.
+NHANES did not collect dental examination data during the 2005–2006 and 2007–2008 cycles, so these years are skipped in the workflow.
 
 ## Repository contents
 
