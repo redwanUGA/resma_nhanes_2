@@ -16,6 +16,24 @@ CBC_DEMO_DENTAL_FILES = {
     "2017-2018": ("CBC_J.xpt", "DEMO_J.xpt", "OHXDEN_J.xpt", "HSCRP_J.xpt", "PBCD_J.xpt"),
 }
 
+REQUIRED_LABELS = ["CBC", "Demographics", "Dental", "CRP", "Mercury"]
+
+
+def _cycles_with_all_files(log_path: str = "download_log.csv") -> set[str]:
+    """Return cycles that successfully downloaded all required files."""
+    if not os.path.exists(log_path):
+        return set(CBC_DEMO_DENTAL_FILES.keys())
+    log_df = pd.read_csv(log_path)
+    valid = set()
+    for cycle, grp in log_df.groupby("Cycle"):
+        statuses = {
+            label: grp[grp["Label"] == label]["Status"].iloc[0]
+            for label in grp["Label"].unique()
+        }
+        if all(statuses.get(lbl) == "success" for lbl in REQUIRED_LABELS):
+            valid.add(cycle)
+    return valid
+
 
 def count_amalgam_surfaces(df: pd.DataFrame) -> pd.DataFrame:
     cols = [c for c in df.columns if c.startswith("OHX") and c.endswith(("TC", "FS", "FT"))]
@@ -36,8 +54,9 @@ def weighted_stats(series: pd.Series, weights: pd.Series):
 
 
 def process_cycles(data_dir: str = "nhanes_data"):
-    df_all = []
-    all_summaries = []
+    df_all: list[pd.DataFrame] = []
+    all_summaries: list[dict] = []
+    valid_cycles = _cycles_with_all_files()
     for cycle, (
         cbc_file,
         demo_file,
@@ -45,6 +64,9 @@ def process_cycles(data_dir: str = "nhanes_data"):
         crp_file,
         mercury_file,
     ) in CBC_DEMO_DENTAL_FILES.items():
+        if cycle not in valid_cycles:
+            print(f"Skipped {cycle}: missing required files (see download_log.csv)")
+            continue
         try:
             cbc = pyreadstat.read_xport(os.path.join(data_dir, cbc_file))[0]
             demo = pyreadstat.read_xport(os.path.join(data_dir, demo_file))[0]
@@ -93,7 +115,7 @@ def process_cycles(data_dir: str = "nhanes_data"):
         except Exception as exc:
             print(f"Skipped {cycle}: {exc}")
 
-    combined_df = pd.concat(df_all, ignore_index=True)
+    combined_df = pd.concat(df_all, ignore_index=True) if df_all else pd.DataFrame()
     summary_df = pd.DataFrame(all_summaries)
     return combined_df, summary_df
 

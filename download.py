@@ -1,5 +1,6 @@
 import os
 import requests
+import pandas as pd
 
 BASE_URLS = {
     "1999-2000": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/",
@@ -130,12 +131,19 @@ for cycle, cbc_file in CBC_FILES.items():
 def download_all(data_dir="nhanes_data"):
     """Download NHANES XPT files for all cycles."""
     os.makedirs(data_dir, exist_ok=True)
+    log_rows = []
     for cycle in FILE_SUFFIXES:
         print(f"\nDownloading files for {cycle}")
         base_url = BASE_URLS[cycle]
         for label, filename in FILE_SUFFIXES[cycle].items():
             if not filename:
                 print(f"Skipping {label}: no file for this cycle")
+                log_rows.append({
+                    "Cycle": cycle,
+                    "Label": label,
+                    "Filename": "",
+                    "Status": "missing",
+                })
                 continue
             url = base_url + filename
             save_path = os.path.join(data_dir, filename)
@@ -145,10 +153,20 @@ def download_all(data_dir="nhanes_data"):
                     with open(save_path, "wb") as f:
                         f.write(resp.content)
                     print(f"Downloaded {label}: {filename}")
+                    status = "success"
                 else:
                     print(f"Failed ({resp.status_code}): {filename}")
+                    status = "failed"
             except Exception as exc:
                 print(f"Error downloading {filename}: {exc}")
+                status = "error"
+            log_rows.append({
+                "Cycle": cycle,
+                "Label": label,
+                "Filename": filename,
+                "Status": status,
+            })
+    pd.DataFrame(log_rows).to_csv("download_log.csv", index=False)
 
 if __name__ == "__main__":
     download_all()

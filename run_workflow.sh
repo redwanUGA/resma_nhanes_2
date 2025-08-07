@@ -16,6 +16,3 @@ python3 analysis.py
 
 # Step 4: Run regression models
 python3 regression_models.py
-
-# Step 5: Generate box plots
-python3 box_plots.py
