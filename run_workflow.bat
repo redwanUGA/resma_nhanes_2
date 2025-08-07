@@ -16,9 +16,6 @@ python analysis.py || goto :error
 REM Step 4: Run regression models
 python regression_models.py || goto :error
 
-REM Step 5: Generate box plots
-python box_plots.py || goto :error
-
 echo Workflow completed successfully.
 exit /B 0
 
