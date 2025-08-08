@@ -1,12 +1,3 @@
 __pycache__/
 nhanes_data/
-combined_dataset.csv
-summary_statistics.csv
 output/
-ttest_results.csv
-download_log.csv
-demographic_statistics.csv
-cubic_spline_coeffs.csv
-cubic_spline_pvalues.csv
-logistic_coeffs.csv
-logistic_pvalues.csv
