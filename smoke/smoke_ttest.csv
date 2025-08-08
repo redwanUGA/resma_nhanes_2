@@ -1,1 +1,245 @@
-
+Cycle,SmokingStatus,Marker,Comparison,Group1 n,Group2 n,t-stat,p-value,Significant
+2003-2004,Current daily smoker,NLR,None vs Low,170,18,-0.258,0.79802,False
+2003-2004,Current daily smoker,MLR,None vs Low,170,18,-1.689,0.10748,False
+2003-2004,Current daily smoker,PLR,None vs Low,170,18,0.488,0.62883,False
+2003-2004,Current daily smoker,SII,None vs Low,170,18,1.061,0.29161,False
+2003-2004,Current daily smoker,CRP,None vs Low,168,16,-0.794,0.43932,False
+2003-2004,Current daily smoker,BloodMercury,None vs Low,170,18,1.979,0.05411,False
+2003-2004,Current daily smoker,NLR,None vs Medium,170,40,0.852,0.39586,False
+2003-2004,Current daily smoker,MLR,None vs Medium,170,40,-0.26,0.79575,False
+2003-2004,Current daily smoker,PLR,None vs Medium,170,40,0.778,0.43919,False
+2003-2004,Current daily smoker,SII,None vs Medium,170,40,1.167,0.24458,False
+2003-2004,Current daily smoker,CRP,None vs Medium,168,40,1.411,0.16257,False
+2003-2004,Current daily smoker,BloodMercury,None vs Medium,170,40,1.314,0.19284,False
+2003-2004,Current daily smoker,NLR,None vs High,170,602,1.499,0.13546,False
+2003-2004,Current daily smoker,MLR,None vs High,170,602,0.016,0.987,False
+2003-2004,Current daily smoker,PLR,None vs High,170,602,1.066,0.28759,False
+2003-2004,Current daily smoker,SII,None vs High,170,602,1.08,0.28135,False
+2003-2004,Current daily smoker,CRP,None vs High,168,602,1.961,0.05071,False
+2003-2004,Current daily smoker,BloodMercury,None vs High,170,606,-0.939,0.34857,False
+2003-2004,Current non-daily smoker,NLR,None vs High,23,151,-0.619,0.54035,False
+2003-2004,Current non-daily smoker,MLR,None vs High,23,151,-1.313,0.19857,False
+2003-2004,Current non-daily smoker,PLR,None vs High,23,151,0.156,0.87711,False
+2003-2004,Current non-daily smoker,SII,None vs High,23,151,-0.837,0.40883,False
+2003-2004,Current non-daily smoker,CRP,None vs High,23,149,0.294,0.77005,False
+2003-2004,Current non-daily smoker,BloodMercury,None vs High,23,152,-0.304,0.76252,False
+2003-2004,Former smoker,NLR,None vs Low,277,38,-0.632,0.53013,False
+2003-2004,Former smoker,MLR,None vs Low,277,38,-0.249,0.80399,False
+2003-2004,Former smoker,PLR,None vs Low,277,38,0.909,0.36711,False
+2003-2004,Former smoker,SII,None vs Low,277,38,0.19,0.85024,False
+2003-2004,Former smoker,CRP,None vs Low,273,38,2.069,0.04126,True
+2003-2004,Former smoker,BloodMercury,None vs Low,276,38,-1.541,0.13103,False
+2003-2004,Former smoker,NLR,None vs Medium,277,75,0.165,0.86959,False
+2003-2004,Former smoker,MLR,None vs Medium,277,75,-0.832,0.40736,False
+2003-2004,Former smoker,PLR,None vs Medium,277,75,-0.251,0.80219,False
+2003-2004,Former smoker,SII,None vs Medium,277,75,0.14,0.88894,False
+2003-2004,Former smoker,CRP,None vs Medium,273,78,0.831,0.40718,False
+2003-2004,Former smoker,BloodMercury,None vs Medium,276,78,-0.69,0.49121,False
+2003-2004,Former smoker,NLR,None vs High,277,841,1.734,0.08364,False
+2003-2004,Former smoker,MLR,None vs High,277,841,2.681,0.00765,True
+2003-2004,Former smoker,PLR,None vs High,277,841,1.654,0.09895,False
+2003-2004,Former smoker,SII,None vs High,277,841,1.423,0.1556,False
+2003-2004,Former smoker,CRP,None vs High,273,840,2.503,0.0127,True
+2003-2004,Former smoker,BloodMercury,None vs High,276,844,-7.873,0.0,True
+2003-2004,Never smoker,NLR,None vs Low,327,33,0.342,0.73431,False
+2003-2004,Never smoker,MLR,None vs Low,327,33,-0.831,0.41142,False
+2003-2004,Never smoker,PLR,None vs Low,327,33,0.241,0.81048,False
+2003-2004,Never smoker,SII,None vs Low,327,33,0.556,0.58135,False
+2003-2004,Never smoker,CRP,None vs Low,331,32,-0.134,0.8943,False
+2003-2004,Never smoker,BloodMercury,None vs Low,331,34,0.873,0.3862,False
+2003-2004,Never smoker,NLR,None vs Medium,327,80,1.651,0.1004,False
+2003-2004,Never smoker,MLR,None vs Medium,327,80,-0.777,0.43867,False
+2003-2004,Never smoker,PLR,None vs Medium,327,80,-0.368,0.71323,False
+2003-2004,Never smoker,SII,None vs Medium,327,80,0.684,0.4947,False
+2003-2004,Never smoker,CRP,None vs Medium,331,80,2.449,0.01475,True
+2003-2004,Never smoker,BloodMercury,None vs Medium,331,80,-0.174,0.86211,False
+2003-2004,Never smoker,NLR,None vs High,327,1809,1.148,0.2518,False
+2003-2004,Never smoker,MLR,None vs High,327,1809,1.196,0.23253,False
+2003-2004,Never smoker,PLR,None vs High,327,1809,0.546,0.58541,False
+2003-2004,Never smoker,SII,None vs High,327,1809,0.499,0.61802,False
+2003-2004,Never smoker,CRP,None vs High,331,1801,2.066,0.0395,True
+2003-2004,Never smoker,BloodMercury,None vs High,331,1819,-1.596,0.11121,False
+2009-2010,Current daily smoker,NLR,None vs Low,229,17,0.161,0.87322,False
+2009-2010,Current daily smoker,MLR,None vs Low,229,17,0.09,0.92931,False
+2009-2010,Current daily smoker,PLR,None vs Low,229,17,-0.563,0.58039,False
+2009-2010,Current daily smoker,SII,None vs Low,229,17,-0.751,0.46268,False
+2009-2010,Current daily smoker,CRP,None vs Low,225,17,-0.989,0.3365,False
+2009-2010,Current daily smoker,BloodMercury,None vs Low,229,17,-0.127,0.90001,False
+2009-2010,Current daily smoker,NLR,None vs Medium,229,48,-1.341,0.18325,False
+2009-2010,Current daily smoker,MLR,None vs Medium,229,48,-0.846,0.40134,False
+2009-2010,Current daily smoker,PLR,None vs Medium,229,48,-1.577,0.11985,False
+2009-2010,Current daily smoker,SII,None vs Medium,229,48,-1.643,0.10435,False
+2009-2010,Current daily smoker,CRP,None vs Medium,225,47,1.468,0.14344,False
+2009-2010,Current daily smoker,BloodMercury,None vs Medium,229,48,1.612,0.10955,False
+2009-2010,Current daily smoker,NLR,None vs High,229,525,0.909,0.36407,False
+2009-2010,Current daily smoker,MLR,None vs High,229,525,1.502,0.13392,False
+2009-2010,Current daily smoker,PLR,None vs High,229,525,-0.706,0.48038,False
+2009-2010,Current daily smoker,SII,None vs High,229,525,0.406,0.68531,False
+2009-2010,Current daily smoker,CRP,None vs High,225,520,2.258,0.02476,True
+2009-2010,Current daily smoker,BloodMercury,None vs High,229,526,-3.039,0.00246,True
+2009-2010,Current non-daily smoker,NLR,None vs High,29,118,2.645,0.01252,True
+2009-2010,Current non-daily smoker,MLR,None vs High,29,118,2.111,0.04231,True
+2009-2010,Current non-daily smoker,PLR,None vs High,29,118,1.774,0.08428,False
+2009-2010,Current non-daily smoker,SII,None vs High,29,118,2.473,0.01814,True
+2009-2010,Current non-daily smoker,CRP,None vs High,29,118,0.229,0.81967,False
+2009-2010,Current non-daily smoker,BloodMercury,None vs High,29,119,-0.359,0.72132,False
+2009-2010,Former smoker,NLR,None vs Low,388,25,0.857,0.39901,False
+2009-2010,Former smoker,MLR,None vs Low,388,25,1.974,0.05741,False
+2009-2010,Former smoker,PLR,None vs Low,388,25,-1.037,0.30848,False
+2009-2010,Former smoker,SII,None vs Low,388,25,0.279,0.78251,False
+2009-2010,Former smoker,CRP,None vs Low,384,25,0.107,0.91577,False
+2009-2010,Former smoker,BloodMercury,None vs Low,391,25,-0.9,0.37673,False
+2009-2010,Former smoker,NLR,None vs Medium,388,80,1.709,0.08975,False
+2009-2010,Former smoker,MLR,None vs Medium,388,80,1.347,0.1805,False
+2009-2010,Former smoker,PLR,None vs Medium,388,80,-1.238,0.21832,False
+2009-2010,Former smoker,SII,None vs Medium,388,80,-0.582,0.56172,False
+2009-2010,Former smoker,CRP,None vs Medium,384,81,0.197,0.84371,False
+2009-2010,Former smoker,BloodMercury,None vs Medium,391,81,0.806,0.42193,False
+2009-2010,Former smoker,NLR,None vs High,388,825,3.84,0.00014,True
+2009-2010,Former smoker,MLR,None vs High,388,825,5.296,0.0,True
+2009-2010,Former smoker,PLR,None vs High,388,825,1.235,0.21715,False
+2009-2010,Former smoker,SII,None vs High,388,825,2.24,0.02542,True
+2009-2010,Former smoker,CRP,None vs High,384,829,1.876,0.0611,False
+2009-2010,Former smoker,BloodMercury,None vs High,391,830,-1.942,0.05257,False
+2009-2010,Never smoker,NLR,None vs Low,497,30,-0.574,0.56966,False
+2009-2010,Never smoker,MLR,None vs Low,497,30,-0.724,0.47429,False
+2009-2010,Never smoker,PLR,None vs Low,497,30,-0.812,0.42267,False
+2009-2010,Never smoker,SII,None vs Low,497,30,-0.865,0.39315,False
+2009-2010,Never smoker,CRP,None vs Low,492,30,-1.091,0.28397,False
+2009-2010,Never smoker,BloodMercury,None vs Low,496,30,-0.019,0.98534,False
+2009-2010,Never smoker,NLR,None vs Medium,497,73,-0.12,0.90491,False
+2009-2010,Never smoker,MLR,None vs Medium,497,73,-0.833,0.40727,False
+2009-2010,Never smoker,PLR,None vs Medium,497,73,0.346,0.73026,False
+2009-2010,Never smoker,SII,None vs Medium,497,73,-0.175,0.86146,False
+2009-2010,Never smoker,CRP,None vs Medium,492,74,-0.709,0.48016,False
+2009-2010,Never smoker,BloodMercury,None vs Medium,496,74,-1.414,0.16093,False
+2009-2010,Never smoker,NLR,None vs High,497,1889,2.999,0.0028,True
+2009-2010,Never smoker,MLR,None vs High,497,1889,2.211,0.02735,True
+2009-2010,Never smoker,PLR,None vs High,497,1889,1.587,0.11297,False
+2009-2010,Never smoker,SII,None vs High,497,1889,0.881,0.3784,False
+2009-2010,Never smoker,CRP,None vs High,492,1882,1.942,0.05256,False
+2009-2010,Never smoker,BloodMercury,None vs High,496,1893,-5.637,0.0,True
+2015-2016,Current daily smoker,NLR,None vs Low,117,26,0.664,0.51027,False
+2015-2016,Current daily smoker,MLR,None vs Low,117,26,0.829,0.4123,False
+2015-2016,Current daily smoker,PLR,None vs Low,117,26,0.273,0.78642,False
+2015-2016,Current daily smoker,SII,None vs Low,117,26,-0.289,0.77432,False
+2015-2016,Current daily smoker,CRP,None vs Low,114,25,-0.587,0.56198,False
+2015-2016,Current daily smoker,NLR,None vs Medium,117,48,0.368,0.71362,False
+2015-2016,Current daily smoker,MLR,None vs Medium,117,48,0.914,0.36316,False
+2015-2016,Current daily smoker,PLR,None vs Medium,117,48,-1.179,0.24155,False
+2015-2016,Current daily smoker,SII,None vs Medium,117,48,-0.85,0.3981,False
+2015-2016,Current daily smoker,CRP,None vs Medium,114,48,-1.299,0.1987,False
+2015-2016,Current daily smoker,BloodMercury,None vs Medium,57,26,1.687,0.09559,False
+2015-2016,Current daily smoker,NLR,None vs High,117,562,1.737,0.08425,False
+2015-2016,Current daily smoker,MLR,None vs High,117,562,3.013,0.00304,True
+2015-2016,Current daily smoker,PLR,None vs High,117,562,-0.356,0.72249,False
+2015-2016,Current daily smoker,SII,None vs High,117,562,0.436,0.6632,False
+2015-2016,Current daily smoker,CRP,None vs High,114,562,0.967,0.33459,False
+2015-2016,Current daily smoker,BloodMercury,None vs High,57,283,-2.68,0.00801,True
+2015-2016,Current non-daily smoker,NLR,None vs High,22,204,0.654,0.51933,False
+2015-2016,Current non-daily smoker,MLR,None vs High,22,204,-0.184,0.8555,False
+2015-2016,Current non-daily smoker,PLR,None vs High,22,204,1.125,0.27141,False
+2015-2016,Current non-daily smoker,SII,None vs High,22,204,0.877,0.38875,False
+2015-2016,Current non-daily smoker,CRP,None vs High,21,201,1.027,0.31394,False
+2015-2016,Current non-daily smoker,BloodMercury,None vs High,13,99,-2.549,0.01406,True
+2015-2016,Former smoker,NLR,None vs Low,160,28,0.196,0.84562,False
+2015-2016,Former smoker,MLR,None vs Low,160,28,0.322,0.74905,False
+2015-2016,Former smoker,PLR,None vs Low,160,28,1.325,0.19275,False
+2015-2016,Former smoker,SII,None vs Low,160,28,0.642,0.52437,False
+2015-2016,Former smoker,CRP,None vs Low,160,26,-0.29,0.773,False
+2015-2016,Former smoker,BloodMercury,None vs Low,80,17,-1.451,0.16394,False
+2015-2016,Former smoker,NLR,None vs Medium,160,81,0.031,0.97541,False
+2015-2016,Former smoker,MLR,None vs Medium,160,81,-0.532,0.59532,False
+2015-2016,Former smoker,PLR,None vs Medium,160,81,-0.331,0.74105,False
+2015-2016,Former smoker,SII,None vs Medium,160,81,0.333,0.7391,False
+2015-2016,Former smoker,CRP,None vs Medium,160,81,-0.364,0.71665,False
+2015-2016,Former smoker,BloodMercury,None vs Medium,80,39,1.285,0.20169,False
+2015-2016,Former smoker,NLR,None vs High,160,935,2.746,0.00666,True
+2015-2016,Former smoker,MLR,None vs High,160,935,3.798,0.0002,True
+2015-2016,Former smoker,PLR,None vs High,160,935,1.639,0.10284,False
+2015-2016,Former smoker,SII,None vs High,160,935,1.547,0.12373,False
+2015-2016,Former smoker,CRP,None vs High,160,936,1.465,0.14468,False
+2015-2016,Former smoker,BloodMercury,None vs High,80,473,-4.027,7e-05,True
+2015-2016,Never smoker,NLR,None vs Low,259,19,-0.698,0.49293,False
+2015-2016,Never smoker,MLR,None vs Low,259,19,-0.924,0.36648,False
+2015-2016,Never smoker,PLR,None vs Low,259,19,-0.531,0.6011,False
+2015-2016,Never smoker,SII,None vs Low,259,19,-0.162,0.87297,False
+2015-2016,Never smoker,CRP,None vs Low,250,17,0.876,0.38937,False
+2015-2016,Never smoker,NLR,None vs Medium,259,77,-0.225,0.82244,False
+2015-2016,Never smoker,MLR,None vs Medium,259,77,-0.568,0.57114,False
+2015-2016,Never smoker,PLR,None vs Medium,259,77,0.572,0.56788,False
+2015-2016,Never smoker,SII,None vs Medium,259,77,0.419,0.67579,False
+2015-2016,Never smoker,CRP,None vs Medium,250,74,0.458,0.648,False
+2015-2016,Never smoker,BloodMercury,None vs Medium,129,41,0.685,0.49521,False
+2015-2016,Never smoker,NLR,None vs High,259,2863,1.157,0.24818,False
+2015-2016,Never smoker,MLR,None vs High,259,2863,1.6,0.11055,False
+2015-2016,Never smoker,PLR,None vs High,259,2863,0.711,0.4776,False
+2015-2016,Never smoker,SII,None vs High,259,2863,0.875,0.38248,False
+2015-2016,Never smoker,CRP,None vs High,250,2835,2.13,0.03406,True
+2015-2016,Never smoker,BloodMercury,None vs High,129,1438,0.196,0.84492,False
+2017-2018,Current daily smoker,NLR,None vs Low,133,29,-1.857,0.07298,False
+2017-2018,Current daily smoker,MLR,None vs Low,133,29,-2.773,0.00915,True
+2017-2018,Current daily smoker,PLR,None vs Low,133,29,-1.923,0.06386,False
+2017-2018,Current daily smoker,SII,None vs Low,133,29,-1.694,0.10052,False
+2017-2018,Current daily smoker,CRP,None vs Low,130,29,0.893,0.37424,False
+2017-2018,Current daily smoker,BloodMercury,None vs Low,133,29,0.027,0.97886,False
+2017-2018,Current daily smoker,NLR,None vs Medium,133,51,-1.53,0.13093,False
+2017-2018,Current daily smoker,MLR,None vs Medium,133,51,-1.081,0.28376,False
+2017-2018,Current daily smoker,PLR,None vs Medium,133,51,-1.814,0.07433,False
+2017-2018,Current daily smoker,SII,None vs Medium,133,51,-1.715,0.09096,False
+2017-2018,Current daily smoker,CRP,None vs Medium,130,46,-0.55,0.58335,False
+2017-2018,Current daily smoker,BloodMercury,None vs Medium,133,51,0.778,0.43746,False
+2017-2018,Current daily smoker,NLR,None vs High,133,508,-0.207,0.83602,False
+2017-2018,Current daily smoker,MLR,None vs High,133,508,0.901,0.36863,False
+2017-2018,Current daily smoker,PLR,None vs High,133,508,-0.536,0.5927,False
+2017-2018,Current daily smoker,SII,None vs High,133,508,-0.498,0.61916,False
+2017-2018,Current daily smoker,CRP,None vs High,130,499,0.249,0.80321,False
+2017-2018,Current daily smoker,BloodMercury,None vs High,133,508,-0.539,0.59074,False
+2017-2018,Current non-daily smoker,NLR,None vs Medium,22,10,0.713,0.48613,False
+2017-2018,Current non-daily smoker,MLR,None vs Medium,22,10,1.295,0.21018,False
+2017-2018,Current non-daily smoker,PLR,None vs Medium,22,10,-0.429,0.67588,False
+2017-2018,Current non-daily smoker,SII,None vs Medium,22,10,-0.316,0.7577,False
+2017-2018,Current non-daily smoker,CRP,None vs Medium,21,10,0.246,0.80783,False
+2017-2018,Current non-daily smoker,BloodMercury,None vs Medium,22,10,0.714,0.48231,False
+2017-2018,Current non-daily smoker,NLR,None vs High,22,163,0.633,0.53121,False
+2017-2018,Current non-daily smoker,MLR,None vs High,22,163,0.802,0.4276,False
+2017-2018,Current non-daily smoker,PLR,None vs High,22,163,0.377,0.70849,False
+2017-2018,Current non-daily smoker,SII,None vs High,22,163,-0.075,0.94042,False
+2017-2018,Current non-daily smoker,CRP,None vs High,21,155,-0.333,0.74051,False
+2017-2018,Current non-daily smoker,BloodMercury,None vs High,22,163,-1.625,0.11007,False
+2017-2018,Former smoker,NLR,None vs Low,196,38,-0.465,0.64382,False
+2017-2018,Former smoker,MLR,None vs Low,196,38,-0.108,0.91443,False
+2017-2018,Former smoker,PLR,None vs Low,196,38,-1.439,0.1581,False
+2017-2018,Former smoker,SII,None vs Low,196,38,-1.05,0.29966,False
+2017-2018,Former smoker,CRP,None vs Low,192,37,-0.109,0.91368,False
+2017-2018,Former smoker,BloodMercury,None vs Low,195,38,-1.228,0.22568,False
+2017-2018,Former smoker,NLR,None vs Medium,196,75,1.141,0.25522,False
+2017-2018,Former smoker,MLR,None vs Medium,196,75,2.04,0.04278,True
+2017-2018,Former smoker,PLR,None vs Medium,196,75,-0.365,0.71569,False
+2017-2018,Former smoker,SII,None vs Medium,196,75,0.144,0.8857,False
+2017-2018,Former smoker,CRP,None vs Medium,192,73,0.227,0.82052,False
+2017-2018,Former smoker,BloodMercury,None vs Medium,195,75,1.099,0.27365,False
+2017-2018,Former smoker,NLR,None vs High,196,911,3.109,0.00208,True
+2017-2018,Former smoker,MLR,None vs High,196,911,4.234,3e-05,True
+2017-2018,Former smoker,PLR,None vs High,196,911,1.235,0.21779,False
+2017-2018,Former smoker,SII,None vs High,196,911,1.697,0.09085,False
+2017-2018,Former smoker,CRP,None vs High,192,894,1.473,0.14203,False
+2017-2018,Former smoker,BloodMercury,None vs High,195,910,-4.419,1e-05,True
+2017-2018,Never smoker,NLR,None vs Low,228,34,-1.881,0.06747,False
+2017-2018,Never smoker,MLR,None vs Low,228,34,-2.472,0.01796,True
+2017-2018,Never smoker,PLR,None vs Low,228,34,-0.944,0.35065,False
+2017-2018,Never smoker,SII,None vs Low,228,34,-1.054,0.29787,False
+2017-2018,Never smoker,CRP,None vs Low,216,34,-1.458,0.15325,False
+2017-2018,Never smoker,BloodMercury,None vs Low,228,34,1.946,0.05441,False
+2017-2018,Never smoker,NLR,None vs Medium,228,78,1.488,0.13871,False
+2017-2018,Never smoker,MLR,None vs Medium,228,78,0.806,0.42175,False
+2017-2018,Never smoker,PLR,None vs Medium,228,78,2.247,0.02586,True
+2017-2018,Never smoker,SII,None vs Medium,228,78,2.396,0.01757,True
+2017-2018,Never smoker,CRP,None vs Medium,216,77,-1.048,0.29666,False
+2017-2018,Never smoker,BloodMercury,None vs Medium,228,79,1.498,0.13551,False
+2017-2018,Never smoker,NLR,None vs High,228,2789,2.611,0.00959,True
+2017-2018,Never smoker,MLR,None vs High,228,2789,3.504,0.00054,True
+2017-2018,Never smoker,PLR,None vs High,228,2789,1.926,0.05529,False
+2017-2018,Never smoker,SII,None vs High,228,2789,1.803,0.07264,False
+2017-2018,Never smoker,CRP,None vs High,216,2731,0.613,0.54015,False
+2017-2018,Never smoker,BloodMercury,None vs High,228,2787,0.723,0.47038,False
