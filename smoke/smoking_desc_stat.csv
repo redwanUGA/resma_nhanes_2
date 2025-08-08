@@ -1,1 +1,399 @@
-
+Cycle,SmokingStatus,Amalgam Group,Marker,Mean,SD,CI_Low,CI_High,Sample Size
+2001-2002,Current daily smoker,None,NLR,2.331,1.405,2.237,2.424,863
+2001-2002,Current daily smoker,None,MLR,0.28,0.116,0.272,0.287,863
+2001-2002,Current daily smoker,None,PLR,127.406,51.902,123.943,130.869,863
+2001-2002,Current daily smoker,None,SII,644.966,429.279,616.325,673.608,863
+2001-2002,Current daily smoker,None,CRP,0.519,1.114,0.444,0.593,860
+2001-2002,Current non-daily smoker,None,NLR,2.073,0.871,1.952,2.194,198
+2001-2002,Current non-daily smoker,None,MLR,0.286,0.097,0.272,0.299,198
+2001-2002,Current non-daily smoker,None,PLR,134.815,47.176,128.243,141.386,198
+2001-2002,Current non-daily smoker,None,SII,575.692,301.201,533.737,617.646,198
+2001-2002,Current non-daily smoker,None,CRP,0.447,0.783,0.338,0.556,198
+2001-2002,Former smoker,None,NLR,2.258,1.107,2.197,2.32,1255
+2001-2002,Former smoker,None,MLR,0.308,0.141,0.301,0.316,1255
+2001-2002,Former smoker,None,PLR,145.663,59.286,142.383,148.943,1255
+2001-2002,Former smoker,None,SII,605.408,394.133,583.602,627.214,1255
+2001-2002,Former smoker,None,CRP,0.416,0.708,0.376,0.455,1249
+2001-2002,Never smoker,None,NLR,2.209,1.102,2.165,2.253,2427
+2001-2002,Never smoker,None,MLR,0.286,0.116,0.282,0.291,2427
+2001-2002,Never smoker,None,PLR,147.383,53.564,145.252,149.514,2427
+2001-2002,Never smoker,None,SII,605.749,345.4,592.007,619.491,2427
+2001-2002,Never smoker,None,CRP,0.386,0.653,0.36,0.412,2415
+2003-2004,Current daily smoker,High,NLR,2.307,1.045,2.223,2.39,602
+2003-2004,Current daily smoker,High,MLR,0.267,0.113,0.258,0.276,602
+2003-2004,Current daily smoker,High,PLR,125.236,45.745,121.581,128.89,602
+2003-2004,Current daily smoker,High,SII,642.473,343.03,615.07,669.875,602
+2003-2004,Current daily smoker,High,CRP,0.445,0.935,0.37,0.519,602
+2003-2004,Current daily smoker,High,BloodMercury,1.405,2.409,1.213,1.597,606
+2003-2004,Current daily smoker,Low,NLR,2.258,0.862,1.86,2.656,18
+2003-2004,Current daily smoker,Low,MLR,0.299,0.112,0.247,0.35,18
+2003-2004,Current daily smoker,Low,PLR,116.512,36.433,99.681,133.343,18
+2003-2004,Current daily smoker,Low,SII,542.486,228.7,436.832,648.14,18
+2003-2004,Current daily smoker,Low,CRP,0.723,2.115,-0.314,1.759,16
+2003-2004,Current daily smoker,Low,BloodMercury,0.602,0.474,0.383,0.821,18
+2003-2004,Current daily smoker,Medium,NLR,2.194,0.83,1.937,2.451,40
+2003-2004,Current daily smoker,Medium,MLR,0.252,0.106,0.219,0.285,40
+2003-2004,Current daily smoker,Medium,PLR,121.625,52.57,105.334,137.917,40
+2003-2004,Current daily smoker,Medium,SII,573.816,285.317,485.395,662.237,40
+2003-2004,Current daily smoker,Medium,CRP,0.447,0.627,0.253,0.641,40
+2003-2004,Current daily smoker,Medium,BloodMercury,0.752,1.042,0.429,1.075,40
+2003-2004,Current daily smoker,None,NLR,2.43,1.877,2.148,2.712,170
+2003-2004,Current daily smoker,None,MLR,0.257,0.1,0.242,0.272,170
+2003-2004,Current daily smoker,None,PLR,124.734,56.649,116.218,133.249,170
+2003-2004,Current daily smoker,None,SII,670.17,681.961,567.654,772.686,170
+2003-2004,Current daily smoker,None,CRP,0.607,0.739,0.495,0.718,168
+2003-2004,Current daily smoker,None,BloodMercury,1.181,1.607,0.939,1.422,170
+2003-2004,Current non-daily smoker,High,NLR,2.048,0.86,1.91,2.185,151
+2003-2004,Current non-daily smoker,High,MLR,0.265,0.099,0.249,0.281,151
+2003-2004,Current non-daily smoker,High,PLR,123.32,35.441,117.667,128.973,151
+2003-2004,Current non-daily smoker,High,SII,546.135,263.336,504.132,588.138,151
+2003-2004,Current non-daily smoker,High,CRP,0.338,0.609,0.24,0.436,149
+2003-2004,Current non-daily smoker,High,BloodMercury,1.68,2.604,1.266,2.094,152
+2003-2004,Current non-daily smoker,Low,NLR,2.711,0.968,1.616,3.807,3
+2003-2004,Current non-daily smoker,Low,MLR,0.23,0.075,0.145,0.314,3
+2003-2004,Current non-daily smoker,Low,PLR,134.799,17.406,115.103,154.495,3
+2003-2004,Current non-daily smoker,Low,SII,613.121,202.815,383.614,842.627,3
+2003-2004,Current non-daily smoker,Low,CRP,0.521,0.343,0.133,0.909,3
+2003-2004,Current non-daily smoker,Low,BloodMercury,0.272,0.045,0.222,0.323,3
+2003-2004,Current non-daily smoker,Medium,NLR,3.248,0.94,2.551,3.945,7
+2003-2004,Current non-daily smoker,Medium,MLR,0.371,0.14,0.267,0.475,7
+2003-2004,Current non-daily smoker,Medium,PLR,149.568,64.358,101.892,197.245,7
+2003-2004,Current non-daily smoker,Medium,SII,886.84,271.766,685.513,1088.168,7
+2003-2004,Current non-daily smoker,Medium,CRP,0.577,0.326,0.335,0.818,7
+2003-2004,Current non-daily smoker,Medium,BloodMercury,0.811,0.346,0.554,1.067,7
+2003-2004,Current non-daily smoker,None,NLR,2.17,0.83,1.831,2.509,23
+2003-2004,Current non-daily smoker,None,MLR,0.256,0.101,0.215,0.297,23
+2003-2004,Current non-daily smoker,None,PLR,124.942,37.4,109.658,140.227,23
+2003-2004,Current non-daily smoker,None,SII,578.925,279.512,464.692,693.159,23
+2003-2004,Current non-daily smoker,None,CRP,0.426,0.48,0.23,0.623,23
+2003-2004,Current non-daily smoker,None,BloodMercury,1.571,1.332,1.027,2.115,23
+2003-2004,Former smoker,High,NLR,2.289,1.174,2.21,2.369,841
+2003-2004,Former smoker,High,MLR,0.294,0.124,0.286,0.303,841
+2003-2004,Former smoker,High,PLR,142.759,50.955,139.315,146.203,841
+2003-2004,Former smoker,High,SII,598.757,357.791,574.575,622.939,841
+2003-2004,Former smoker,High,CRP,0.393,0.875,0.334,0.452,840
+2003-2004,Former smoker,High,BloodMercury,2.083,2.324,1.926,2.239,844
+2003-2004,Former smoker,Low,NLR,2.664,1.241,2.27,3.059,38
+2003-2004,Former smoker,Low,MLR,0.346,0.125,0.307,0.386,38
+2003-2004,Former smoker,Low,PLR,137.755,48.522,122.327,153.183,38
+2003-2004,Former smoker,Low,SII,694.69,432.92,557.042,832.339,38
+2003-2004,Former smoker,Low,CRP,0.325,0.453,0.181,0.469,38
+2003-2004,Former smoker,Low,BloodMercury,1.464,1.842,0.879,2.05,38
+2003-2004,Former smoker,Medium,NLR,2.51,1.762,2.112,2.909,75
+2003-2004,Former smoker,Medium,MLR,0.344,0.185,0.302,0.386,75
+2003-2004,Former smoker,Medium,PLR,156.645,115.029,130.612,182.679,75
+2003-2004,Former smoker,Medium,SII,682.633,597.587,547.386,817.879,75
+2003-2004,Former smoker,Medium,CRP,0.532,0.948,0.321,0.742,78
+2003-2004,Former smoker,Medium,BloodMercury,1.097,1.3,0.808,1.385,78
+2003-2004,Former smoker,None,NLR,2.617,1.806,2.405,2.83,277
+2003-2004,Former smoker,None,MLR,0.329,0.183,0.308,0.351,277
+2003-2004,Former smoker,None,PLR,147.787,75.992,138.838,156.736,277
+2003-2004,Former smoker,None,SII,671.07,540.743,607.389,734.75,277
+2003-2004,Former smoker,None,CRP,0.625,1.307,0.47,0.78,273
+2003-2004,Former smoker,None,BloodMercury,1.027,1.309,0.872,1.181,276
+2003-2004,Never smoker,High,NLR,2.24,1.109,2.189,2.292,1809
+2003-2004,Never smoker,High,MLR,0.276,0.114,0.27,0.281,1809
+2003-2004,Never smoker,High,PLR,142.322,52.286,139.912,144.731,1809
+2003-2004,Never smoker,High,SII,598.009,357.175,581.55,614.469,1809
+2003-2004,Never smoker,High,CRP,0.413,0.825,0.375,0.451,1801
+2003-2004,Never smoker,High,BloodMercury,1.808,2.284,1.703,1.913,1819
+2003-2004,Never smoker,Low,NLR,2.018,0.956,1.692,2.344,33
+2003-2004,Never smoker,Low,MLR,0.284,0.136,0.238,0.33,33
+2003-2004,Never smoker,Low,PLR,133.141,49.084,116.394,149.888,33
+2003-2004,Never smoker,Low,SII,517.983,251.99,432.006,603.961,33
+2003-2004,Never smoker,Low,CRP,0.6,1.247,0.168,1.032,32
+2003-2004,Never smoker,Low,BloodMercury,1.206,1.456,0.717,1.695,34
+2003-2004,Never smoker,Medium,NLR,2.094,0.932,1.89,2.298,80
+2003-2004,Never smoker,Medium,MLR,0.299,0.124,0.271,0.326,80
+2003-2004,Never smoker,Medium,PLR,145.046,67.499,130.255,159.837,80
+2003-2004,Never smoker,Medium,SII,571.432,310.098,503.479,639.386,80
+2003-2004,Never smoker,Medium,CRP,0.382,0.374,0.3,0.464,80
+2003-2004,Never smoker,Medium,BloodMercury,1.602,2.447,1.066,2.139,80
+2003-2004,Never smoker,None,NLR,2.309,1.429,2.154,2.464,327
+2003-2004,Never smoker,None,MLR,0.285,0.131,0.271,0.299,327
+2003-2004,Never smoker,None,PLR,141.421,59.871,134.932,147.91,327
+2003-2004,Never smoker,None,SII,596.712,426.716,550.461,642.963,327
+2003-2004,Never smoker,None,CRP,0.468,1.165,0.342,0.594,331
+2003-2004,Never smoker,None,BloodMercury,1.531,2.479,1.264,1.798,331
+2009-2010,Current daily smoker,High,NLR,2.215,1.03,2.127,2.303,525
+2009-2010,Current daily smoker,High,MLR,0.256,0.101,0.247,0.265,525
+2009-2010,Current daily smoker,High,PLR,113.8,48.887,109.618,117.982,525
+2009-2010,Current daily smoker,High,SII,552.981,310.555,526.415,579.546,525
+2009-2010,Current daily smoker,High,CRP,0.399,0.604,0.347,0.451,520
+2009-2010,Current daily smoker,High,BloodMercury,1.457,1.941,1.291,1.622,526
+2009-2010,Current daily smoker,Low,NLR,2.534,1.071,2.025,3.043,17
+2009-2010,Current daily smoker,Low,MLR,0.305,0.098,0.258,0.351,17
+2009-2010,Current daily smoker,Low,PLR,130.561,67.104,98.661,162.46,17
+2009-2010,Current daily smoker,Low,SII,862.137,741.625,509.591,1214.683,17
+2009-2010,Current daily smoker,Low,CRP,2.278,3.462,0.632,3.924,17
+2009-2010,Current daily smoker,Low,BloodMercury,0.908,0.782,0.536,1.279,17
+2009-2010,Current daily smoker,Medium,NLR,2.664,1.401,2.268,3.061,48
+2009-2010,Current daily smoker,Medium,MLR,0.297,0.188,0.244,0.35,48
+2009-2010,Current daily smoker,Medium,PLR,121.889,51.791,107.237,136.54,48
+2009-2010,Current daily smoker,Medium,SII,691.054,398.732,578.252,803.856,48
+2009-2010,Current daily smoker,Medium,CRP,0.521,0.421,0.4,0.641,47
+2009-2010,Current daily smoker,Medium,BloodMercury,0.876,0.587,0.71,1.042,48
+2009-2010,Current daily smoker,None,NLR,2.417,1.768,2.188,2.646,229
+2009-2010,Current daily smoker,None,MLR,0.267,0.124,0.251,0.283,229
+2009-2010,Current daily smoker,None,PLR,112.015,51.135,105.392,118.638,229
+2009-2010,Current daily smoker,None,SII,605.729,483.805,543.067,668.392,229
+2009-2010,Current daily smoker,None,CRP,0.559,1.263,0.394,0.724,225
+2009-2010,Current daily smoker,None,BloodMercury,1.026,1.321,0.855,1.198,229
+2009-2010,Current non-daily smoker,High,NLR,1.971,0.791,1.828,2.114,118
+2009-2010,Current non-daily smoker,High,MLR,0.257,0.098,0.239,0.275,118
+2009-2010,Current non-daily smoker,High,PLR,119.697,39.332,112.6,126.794,118
+2009-2010,Current non-daily smoker,High,SII,502.821,233.879,460.622,545.021,118
+2009-2010,Current non-daily smoker,High,CRP,0.359,1.099,0.161,0.557,118
+2009-2010,Current non-daily smoker,High,BloodMercury,1.791,2.904,1.269,2.313,119
+2009-2010,Current non-daily smoker,Medium,NLR,2.311,0.387,2.042,2.579,8
+2009-2010,Current non-daily smoker,Medium,MLR,0.207,0.059,0.167,0.248,8
+2009-2010,Current non-daily smoker,Medium,PLR,131.256,45.062,100.03,162.482,8
+2009-2010,Current non-daily smoker,Medium,SII,632.865,217.425,482.197,783.533,8
+2009-2010,Current non-daily smoker,Medium,CRP,0.431,0.423,0.138,0.724,8
+2009-2010,Current non-daily smoker,Medium,BloodMercury,0.73,0.284,0.534,0.927,8
+2009-2010,Current non-daily smoker,None,NLR,2.978,1.646,2.379,3.577,29
+2009-2010,Current non-daily smoker,None,MLR,0.357,0.176,0.293,0.421,29
+2009-2010,Current non-daily smoker,None,PLR,134.38,52.652,115.216,153.543,29
+2009-2010,Current non-daily smoker,None,SII,677.662,326.424,558.856,796.468,29
+2009-2010,Current non-daily smoker,None,CRP,0.459,0.717,0.198,0.72,29
+2009-2010,Current non-daily smoker,None,BloodMercury,1.217,1.443,0.692,1.742,29
+2009-2010,Former smoker,High,NLR,2.263,1.082,2.189,2.337,825
+2009-2010,Former smoker,High,MLR,0.291,0.115,0.283,0.299,825
+2009-2010,Former smoker,High,PLR,129.852,52.401,126.277,133.428,825
+2009-2010,Former smoker,High,SII,536.618,334.045,513.824,559.413,825
+2009-2010,Former smoker,High,CRP,0.365,0.613,0.323,0.407,829
+2009-2010,Former smoker,High,BloodMercury,2.053,2.688,1.87,2.236,830
+2009-2010,Former smoker,Low,NLR,2.141,1.057,1.726,2.555,25
+2009-2010,Former smoker,Low,MLR,0.286,0.081,0.254,0.318,25
+2009-2010,Former smoker,Low,PLR,144.012,51.821,123.698,164.326,25
+2009-2010,Former smoker,Low,SII,523.504,268.548,418.233,628.775,25
+2009-2010,Former smoker,Low,CRP,0.574,0.605,0.337,0.812,25
+2009-2010,Former smoker,Low,BloodMercury,2.015,5.248,-0.042,4.073,25
+2009-2010,Former smoker,Medium,NLR,2.398,1.144,2.148,2.649,80
+2009-2010,Former smoker,Medium,MLR,0.321,0.124,0.293,0.348,80
+2009-2010,Former smoker,Medium,PLR,141.69,51.611,130.38,152.999,80
+2009-2010,Former smoker,Medium,SII,621.776,377.515,539.049,704.503,80
+2009-2010,Former smoker,Medium,CRP,0.411,0.514,0.3,0.523,81
+2009-2010,Former smoker,Medium,BloodMercury,1.668,3.76,0.85,2.487,81
+2009-2010,Former smoker,None,NLR,2.461,1.267,2.335,2.587,388
+2009-2010,Former smoker,None,MLR,0.327,0.137,0.313,0.341,388
+2009-2010,Former smoker,None,PLR,129.325,51.936,124.157,134.492,388
+2009-2010,Former smoker,None,SII,556.972,330.52,524.084,589.86,388
+2009-2010,Former smoker,None,CRP,0.453,0.699,0.383,0.522,384
+2009-2010,Former smoker,None,BloodMercury,1.697,2.6,1.439,1.955,391
+2009-2010,Never smoker,High,NLR,2.108,0.985,2.064,2.153,1889
+2009-2010,Never smoker,High,MLR,0.274,0.113,0.269,0.279,1889
+2009-2010,Never smoker,High,PLR,128.083,47.552,125.939,130.228,1889
+2009-2010,Never smoker,High,SII,511.477,417.942,492.63,530.325,1889
+2009-2010,Never smoker,High,CRP,0.329,0.551,0.304,0.354,1882
+2009-2010,Never smoker,High,BloodMercury,2.139,3.177,1.996,2.282,1893
+2009-2010,Never smoker,Low,NLR,2.611,1.158,2.196,3.025,30
+2009-2010,Never smoker,Low,MLR,0.314,0.126,0.269,0.359,30
+2009-2010,Never smoker,Low,PLR,138.414,56.477,118.204,158.624,30
+2009-2010,Never smoker,Low,SII,622.241,326.483,505.41,739.071,30
+2009-2010,Never smoker,Low,CRP,0.648,1.268,0.194,1.102,30
+2009-2010,Never smoker,Low,BloodMercury,1.176,1.179,0.754,1.598,30
+2009-2010,Never smoker,Medium,NLR,2.31,1.227,2.028,2.591,73
+2009-2010,Never smoker,Medium,MLR,0.311,0.207,0.263,0.359,73
+2009-2010,Never smoker,Medium,PLR,129.075,50.678,117.449,140.7,73
+2009-2010,Never smoker,Medium,SII,534.319,302.734,464.872,603.767,73
+2009-2010,Never smoker,Medium,CRP,0.447,0.768,0.272,0.622,74
+2009-2010,Never smoker,Medium,BloodMercury,1.751,2.195,1.251,2.251,74
+2009-2010,Never smoker,None,NLR,2.266,1.097,2.17,2.363,497
+2009-2010,Never smoker,None,MLR,0.279,0.126,0.268,0.29,497
+2009-2010,Never smoker,None,PLR,134.531,56.738,129.543,139.519,497
+2009-2010,Never smoker,None,SII,551.76,313.221,524.222,579.298,497
+2009-2010,Never smoker,None,CRP,0.41,0.661,0.352,0.468,492
+2009-2010,Never smoker,None,BloodMercury,1.448,2.019,1.27,1.625,496
+2015-2016,Current daily smoker,High,NLR,2.227,1.127,2.134,2.321,562
+2015-2016,Current daily smoker,High,MLR,0.286,0.11,0.276,0.295,562
+2015-2016,Current daily smoker,High,PLR,108.922,42.047,105.446,112.398,562
+2015-2016,Current daily smoker,High,SII,552.81,326.411,525.823,579.797,562
+2015-2016,Current daily smoker,High,CRP,4.16,7.584,3.533,4.787,562
+2015-2016,Current daily smoker,High,BloodMercury,1.304,1.86,1.087,1.521,283
+2015-2016,Current daily smoker,Low,NLR,2.184,0.926,1.828,2.54,26
+2015-2016,Current daily smoker,Low,MLR,0.289,0.096,0.252,0.326,26
+2015-2016,Current daily smoker,Low,PLR,103.266,30.414,91.576,114.957,26
+2015-2016,Current daily smoker,Low,SII,527.564,272.369,422.869,632.26,26
+2015-2016,Current daily smoker,Low,CRP,4.636,8.539,1.288,7.983,25
+2015-2016,Current daily smoker,Low,BloodMercury,0.477,0.438,0.152,0.801,7
+2015-2016,Current daily smoker,Medium,NLR,2.597,1.229,2.249,2.945,48
+2015-2016,Current daily smoker,Medium,MLR,0.333,0.136,0.294,0.371,48
+2015-2016,Current daily smoker,Medium,PLR,116.207,39.262,105.1,127.314,48
+2015-2016,Current daily smoker,Medium,SII,631.691,321.941,540.613,722.768,48
+2015-2016,Current daily smoker,Medium,CRP,6.705,8.62,4.267,9.144,48
+2015-2016,Current daily smoker,Medium,BloodMercury,0.465,0.395,0.313,0.617,26
+2015-2016,Current daily smoker,None,NLR,2.451,1.141,2.244,2.657,117
+2015-2016,Current daily smoker,None,MLR,0.328,0.138,0.303,0.353,117
+2015-2016,Current daily smoker,None,PLR,101.123,35.916,94.615,107.632,117
+2015-2016,Current daily smoker,None,SII,537.857,269.552,489.013,586.7,117
+2015-2016,Current daily smoker,None,CRP,6.906,10.756,4.931,8.88,114
+2015-2016,Current daily smoker,None,BloodMercury,0.913,1.033,0.645,1.181,57
+2015-2016,Current non-daily smoker,High,NLR,2.073,1.022,1.933,2.213,204
+2015-2016,Current non-daily smoker,High,MLR,0.289,0.126,0.272,0.306,204
+2015-2016,Current non-daily smoker,High,PLR,112.114,40.98,106.49,117.737,204
+2015-2016,Current non-daily smoker,High,SII,491.557,266.919,454.928,528.186,204
+2015-2016,Current non-daily smoker,High,CRP,3.543,6.458,2.651,4.436,201
+2015-2016,Current non-daily smoker,High,BloodMercury,1.083,1.214,0.844,1.322,99
+2015-2016,Current non-daily smoker,Low,NLR,2.874,1.05,1.954,3.795,5
+2015-2016,Current non-daily smoker,Low,MLR,0.283,0.028,0.258,0.307,5
+2015-2016,Current non-daily smoker,Low,PLR,109.816,13.437,98.037,121.594,5
+2015-2016,Current non-daily smoker,Low,SII,826.41,340.124,528.278,1124.542,5
+2015-2016,Current non-daily smoker,Low,CRP,12.958,6.589,6.5,19.415,4
+2015-2016,Current non-daily smoker,Low,BloodMercury,1.165,0.423,0.579,1.751,2
+2015-2016,Current non-daily smoker,Medium,NLR,2.501,1.489,1.398,3.604,7
+2015-2016,Current non-daily smoker,Medium,MLR,0.355,0.091,0.287,0.423,7
+2015-2016,Current non-daily smoker,Medium,PLR,95.123,43.986,62.537,127.708,7
+2015-2016,Current non-daily smoker,Medium,SII,532.667,394.234,240.614,824.719,7
+2015-2016,Current non-daily smoker,Medium,CRP,11.261,9.438,4.27,18.253,7
+2015-2016,Current non-daily smoker,Medium,BloodMercury,1.076,0.923,0.337,1.814,6
+2015-2016,Current non-daily smoker,None,NLR,2.844,1.415,2.253,3.436,22
+2015-2016,Current non-daily smoker,None,MLR,0.3,0.122,0.249,0.351,22
+2015-2016,Current non-daily smoker,None,PLR,140.744,55.172,117.689,163.799,22
+2015-2016,Current non-daily smoker,None,SII,763.655,450.69,575.323,951.986,22
+2015-2016,Current non-daily smoker,None,CRP,5.275,4.782,3.23,7.32,21
+2015-2016,Current non-daily smoker,None,BloodMercury,0.957,0.59,0.636,1.278,13
+2015-2016,Former smoker,High,NLR,2.251,1.085,2.181,2.32,935
+2015-2016,Former smoker,High,MLR,0.312,0.13,0.304,0.321,935
+2015-2016,Former smoker,High,PLR,119.856,42.643,117.122,122.589,935
+2015-2016,Former smoker,High,SII,513.639,271.427,496.241,531.037,935
+2015-2016,Former smoker,High,CRP,3.861,7.027,3.411,4.311,936
+2015-2016,Former smoker,High,BloodMercury,1.747,2.793,1.495,1.998,473
+2015-2016,Former smoker,Low,NLR,2.554,1.862,1.865,3.244,28
+2015-2016,Former smoker,Low,MLR,0.34,0.169,0.277,0.402,28
+2015-2016,Former smoker,Low,PLR,112.029,49.799,93.583,130.475,28
+2015-2016,Former smoker,Low,SII,518.393,379.285,377.904,658.882,28
+2015-2016,Former smoker,Low,CRP,6.96,9.907,3.152,10.769,26
+2015-2016,Former smoker,Low,BloodMercury,1.277,1.652,0.492,2.062,17
+2015-2016,Former smoker,Medium,NLR,2.653,1.577,2.31,2.997,81
+2015-2016,Former smoker,Medium,MLR,0.361,0.174,0.323,0.399,81
+2015-2016,Former smoker,Medium,PLR,131.894,59.986,118.83,144.958,81
+2015-2016,Former smoker,Medium,SII,552.308,295.889,487.87,616.746,81
+2015-2016,Former smoker,Medium,CRP,4.774,10.605,2.464,7.083,81
+2015-2016,Former smoker,Medium,BloodMercury,0.923,0.958,0.623,1.224,39
+2015-2016,Former smoker,None,NLR,2.715,2.362,2.349,3.081,160
+2015-2016,Former smoker,None,MLR,0.346,0.17,0.32,0.373,160
+2015-2016,Former smoker,None,PLR,132.511,66.084,122.271,142.75,160
+2015-2016,Former smoker,None,SII,603.745,595.222,511.514,695.975,160
+2015-2016,Former smoker,None,CRP,5.095,9.248,3.662,6.528,160
+2015-2016,Former smoker,None,BloodMercury,1.145,1.16,0.891,1.399,80
+2015-2016,Never smoker,High,NLR,2.103,1.038,2.065,2.141,2863
+2015-2016,Never smoker,High,MLR,0.284,0.122,0.279,0.288,2863
+2015-2016,Never smoker,High,PLR,121.085,43.43,119.494,122.676,2863
+2015-2016,Never smoker,High,SII,506.206,271.281,496.269,516.143,2863
+2015-2016,Never smoker,High,CRP,3.478,5.834,3.263,3.692,2835
+2015-2016,Never smoker,High,BloodMercury,1.34,2.023,1.236,1.445,1438
+2015-2016,Never smoker,Low,NLR,2.873,1.315,2.282,3.464,19
+2015-2016,Never smoker,Low,MLR,0.394,0.178,0.314,0.474,19
+2015-2016,Never smoker,Low,PLR,155.478,84.742,117.373,193.582,19
+2015-2016,Never smoker,Low,SII,643.234,330.626,494.567,791.902,19
+2015-2016,Never smoker,Low,CRP,3.033,3.644,1.301,4.765,17
+2015-2016,Never smoker,Low,BloodMercury,0.732,1.163,-0.028,1.492,9
+2015-2016,Never smoker,Medium,NLR,2.073,1.529,1.731,2.414,77
+2015-2016,Never smoker,Medium,MLR,0.313,0.21,0.266,0.36,77
+2015-2016,Never smoker,Medium,PLR,112.661,38.147,104.141,121.182,77
+2015-2016,Never smoker,Medium,SII,463.458,380.671,378.431,548.486,77
+2015-2016,Never smoker,Medium,CRP,4.658,6.711,3.129,6.187,74
+2015-2016,Never smoker,Medium,BloodMercury,1.697,1.476,1.245,2.149,41
+2015-2016,Never smoker,None,NLR,2.088,1.172,1.945,2.231,259
+2015-2016,Never smoker,None,MLR,0.287,0.117,0.273,0.301,259
+2015-2016,Never smoker,None,PLR,120.353,51.57,114.073,126.634,259
+2015-2016,Never smoker,None,SII,495.81,357.869,452.226,539.394,259
+2015-2016,Never smoker,None,CRP,4.023,6.008,3.279,4.768,250
+2015-2016,Never smoker,None,BloodMercury,1.231,1.607,0.954,1.508,129
+2017-2018,Current daily smoker,High,NLR,2.18,1.033,2.091,2.27,508
+2017-2018,Current daily smoker,High,MLR,0.278,0.113,0.268,0.288,508
+2017-2018,Current daily smoker,High,PLR,111.049,38.584,107.694,114.405,508
+2017-2018,Current daily smoker,High,SII,551.665,300.139,525.564,577.765,508
+2017-2018,Current daily smoker,High,CRP,4.131,10.346,3.223,5.039,499
+2017-2018,Current daily smoker,High,BloodMercury,0.872,1.354,0.754,0.99,508
+2017-2018,Current daily smoker,Low,NLR,2.923,2.142,2.143,3.702,29
+2017-2018,Current daily smoker,Low,MLR,0.367,0.174,0.304,0.43,29
+2017-2018,Current daily smoker,Low,PLR,138.713,91.464,105.423,172.002,29
+2017-2018,Current daily smoker,Low,SII,774.835,623.679,547.839,1001.831,29
+2017-2018,Current daily smoker,Low,CRP,4.605,3.946,3.169,6.041,29
+2017-2018,Current daily smoker,Low,BloodMercury,0.77,0.585,0.558,0.983,29
+2017-2018,Current daily smoker,Medium,NLR,2.868,2.025,2.312,3.424,51
+2017-2018,Current daily smoker,Medium,MLR,0.324,0.175,0.276,0.373,51
+2017-2018,Current daily smoker,Medium,PLR,124.877,60.224,108.348,141.406,51
+2017-2018,Current daily smoker,Medium,SII,724.022,512.287,583.422,864.622,51
+2017-2018,Current daily smoker,Medium,CRP,5.033,5.51,3.441,6.626,46
+2017-2018,Current daily smoker,Medium,BloodMercury,0.572,0.666,0.39,0.755,51
+2017-2018,Current daily smoker,None,NLR,2.071,0.867,1.924,2.219,133
+2017-2018,Current daily smoker,None,MLR,0.28,0.099,0.263,0.297,133
+2017-2018,Current daily smoker,None,PLR,107.614,37.138,101.302,113.926,133
+2017-2018,Current daily smoker,None,SII,540.159,306.63,488.046,592.272,133
+2017-2018,Current daily smoker,None,CRP,5.243,8.918,3.71,6.776,130
+2017-2018,Current daily smoker,None,BloodMercury,0.662,1.092,0.477,0.848,133
+2017-2018,Current non-daily smoker,High,NLR,2.222,1.247,2.031,2.414,163
+2017-2018,Current non-daily smoker,High,MLR,0.283,0.113,0.265,0.3,163
+2017-2018,Current non-daily smoker,High,PLR,116.973,47.271,109.716,124.23,163
+2017-2018,Current non-daily smoker,High,SII,573.789,383.877,514.857,632.722,163
+2017-2018,Current non-daily smoker,High,CRP,3.77,9.31,2.304,5.236,155
+2017-2018,Current non-daily smoker,High,BloodMercury,1.361,2.176,1.027,1.695,163
+2017-2018,Current non-daily smoker,Low,NLR,1.695,0.481,1.029,2.362,2
+2017-2018,Current non-daily smoker,Low,MLR,0.257,0.077,0.15,0.364,2
+2017-2018,Current non-daily smoker,Low,PLR,101.219,36.881,50.105,152.334,2
+2017-2018,Current non-daily smoker,Low,SII,406.837,133.364,222.004,591.67,2
+2017-2018,Current non-daily smoker,Low,CRP,4.139,2.748,0.331,7.947,2
+2017-2018,Current non-daily smoker,Low,BloodMercury,0.969,0.046,0.904,1.033,2
+2017-2018,Current non-daily smoker,Medium,NLR,1.624,0.797,1.13,2.118,10
+2017-2018,Current non-daily smoker,Medium,MLR,0.258,0.044,0.231,0.285,10
+2017-2018,Current non-daily smoker,Medium,PLR,106.631,54.218,73.027,140.236,10
+2017-2018,Current non-daily smoker,Medium,SII,429.117,336.571,220.508,637.727,10
+2017-2018,Current non-daily smoker,Medium,CRP,3.177,2.48,1.64,4.714,10
+2017-2018,Current non-daily smoker,Medium,BloodMercury,0.785,0.42,0.525,1.046,10
+2017-2018,Current non-daily smoker,None,NLR,2.535,1.012,2.112,2.958,22
+2017-2018,Current non-daily smoker,None,MLR,0.287,0.07,0.258,0.316,22
+2017-2018,Current non-daily smoker,None,PLR,116.361,27.095,105.038,127.683,22
+2017-2018,Current non-daily smoker,None,SII,590.182,233.129,492.764,687.601,22
+2017-2018,Current non-daily smoker,None,CRP,2.534,2.796,1.338,3.729,21
+2017-2018,Current non-daily smoker,None,BloodMercury,0.77,0.733,0.463,1.076,22
+2017-2018,Former smoker,High,NLR,2.169,1.3,2.084,2.253,911
+2017-2018,Former smoker,High,MLR,0.298,0.124,0.29,0.306,911
+2017-2018,Former smoker,High,PLR,120.847,46.714,117.813,123.88,911
+2017-2018,Former smoker,High,SII,524.076,368.722,500.132,548.02,911
+2017-2018,Former smoker,High,CRP,3.742,6.363,3.325,4.159,894
+2017-2018,Former smoker,High,BloodMercury,1.596,2.161,1.456,1.737,910
+2017-2018,Former smoker,Low,NLR,2.656,1.501,2.178,3.133,38
+2017-2018,Former smoker,Low,MLR,0.371,0.141,0.326,0.416,38
+2017-2018,Former smoker,Low,PLR,138.371,96.446,107.705,169.036,38
+2017-2018,Former smoker,Low,SII,637.161,456.736,491.94,782.382,38
+2017-2018,Former smoker,Low,CRP,4.391,9.587,1.302,7.48,37
+2017-2018,Former smoker,Low,BloodMercury,1.091,1.25,0.694,1.489,38
+2017-2018,Former smoker,Medium,NLR,2.128,0.838,1.939,2.318,75
+2017-2018,Former smoker,Medium,MLR,0.304,0.102,0.281,0.327,75
+2017-2018,Former smoker,Medium,PLR,117.583,45.644,107.253,127.914,75
+2017-2018,Former smoker,Medium,SII,508.469,263.731,448.781,568.157,75
+2017-2018,Former smoker,Medium,CRP,6.123,8.707,4.125,8.12,73
+2017-2018,Former smoker,Medium,BloodMercury,0.698,0.927,0.488,0.908,75
+2017-2018,Former smoker,None,NLR,2.425,1.174,2.261,2.589,196
+2017-2018,Former smoker,None,MLR,0.347,0.148,0.326,0.368,196
+2017-2018,Former smoker,None,PLR,128.571,51.835,121.314,135.828,196
+2017-2018,Former smoker,None,SII,564.01,333.732,517.287,610.732,196
+2017-2018,Former smoker,None,CRP,7.308,15.953,5.052,9.565,192
+2017-2018,Former smoker,None,BloodMercury,0.902,1.268,0.724,1.08,195
+2017-2018,Never smoker,High,NLR,2.089,1.044,2.05,2.127,2789
+2017-2018,Never smoker,High,MLR,0.28,0.112,0.276,0.284,2789
+2017-2018,Never smoker,High,PLR,123.437,43.185,121.834,125.039,2789
+2017-2018,Never smoker,High,SII,512.14,296.413,501.139,523.141,2789
+2017-2018,Never smoker,High,CRP,3.608,6.769,3.354,3.862,2731
+2017-2018,Never smoker,High,BloodMercury,1.331,2.033,1.255,1.406,2787
+2017-2018,Never smoker,Low,NLR,2.807,1.996,2.137,3.478,34
+2017-2018,Never smoker,Low,MLR,0.344,0.189,0.28,0.407,34
+2017-2018,Never smoker,Low,PLR,127.635,58.296,108.04,147.231,34
+2017-2018,Never smoker,Low,SII,599.318,393.21,467.146,731.491,34
+2017-2018,Never smoker,Low,CRP,5.603,10.195,2.176,9.03,34
+2017-2018,Never smoker,Low,BloodMercury,0.768,1.063,0.411,1.126,34
+2017-2018,Never smoker,Medium,NLR,1.994,1.01,1.77,2.218,78
+2017-2018,Never smoker,Medium,MLR,0.283,0.108,0.259,0.307,78
+2017-2018,Never smoker,Medium,PLR,116.368,38.74,107.77,124.966,78
+2017-2018,Never smoker,Medium,SII,462.393,227.295,411.95,512.835,78
+2017-2018,Never smoker,Medium,CRP,6.188,11.994,3.509,8.867,77
+2017-2018,Never smoker,Medium,BloodMercury,1.141,1.366,0.84,1.443,79
+2017-2018,Never smoker,None,NLR,2.364,1.278,2.198,2.53,228
+2017-2018,Never smoker,None,MLR,0.316,0.139,0.298,0.334,228
+2017-2018,Never smoker,None,PLR,135.729,54.343,128.675,142.783,228
+2017-2018,Never smoker,None,SII,601.317,372.659,552.944,649.69,228
+2017-2018,Never smoker,None,CRP,4.182,6.855,3.268,5.096,216
+2017-2018,Never smoker,None,BloodMercury,1.455,3.125,1.05,1.861,228
