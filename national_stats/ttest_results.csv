@@ -1,0 +1,731 @@
+Cycle,Strata,Group,Marker,Comparison,Group1 n,Group2 n,t-stat,p-value,Significant
+2003-2004,Gender,Female,NLR,None vs Low,782,90,-0.492,0.62374,False
+2003-2004,Gender,Female,MLR,None vs Low,782,90,-1.037,0.30211,False
+2003-2004,Gender,Female,PLR,None vs Low,782,90,-0.78,0.43738,False
+2003-2004,Gender,Female,SII,None vs Low,782,90,-0.403,0.68794,False
+2003-2004,Gender,Female,CRP,None vs Low,769,89,0.503,0.61575,False
+2003-2004,Gender,Female,BloodMercury,None vs Low,783,92,-0.323,0.74712,False
+2003-2004,Gender,Female,NLR,None vs Medium,782,211,-0.911,0.36313,False
+2003-2004,Gender,Female,MLR,None vs Medium,782,211,-1.797,0.07325,False
+2003-2004,Gender,Female,PLR,None vs Medium,782,211,-1.888,0.05999,False
+2003-2004,Gender,Female,SII,None vs Medium,782,211,-1.052,0.29368,False
+2003-2004,Gender,Female,CRP,None vs Medium,769,212,0.616,0.53844,False
+2003-2004,Gender,Female,BloodMercury,None vs Medium,783,212,-0.585,0.55896,False
+2003-2004,Gender,Female,NLR,None vs High,782,3035,-5.465,0.0,True
+2003-2004,Gender,Female,MLR,None vs High,782,3035,-3.376,0.00076,True
+2003-2004,Gender,Female,PLR,None vs High,782,3035,-4.431,1e-05,True
+2003-2004,Gender,Female,SII,None vs High,782,3035,-4.629,0.0,True
+2003-2004,Gender,Female,CRP,None vs High,769,3002,0.261,0.79397,False
+2003-2004,Gender,Female,BloodMercury,None vs High,783,3045,-4.084,5e-05,True
+2003-2004,Gender,Male,NLR,None vs Low,716,105,-1.219,0.2248,False
+2003-2004,Gender,Male,MLR,None vs Low,716,105,-2.23,0.02752,True
+2003-2004,Gender,Male,PLR,None vs Low,716,105,-2.556,0.0116,True
+2003-2004,Gender,Male,SII,None vs Low,716,105,-0.923,0.35708,False
+2003-2004,Gender,Male,CRP,None vs Low,698,101,-0.199,0.84234,False
+2003-2004,Gender,Male,BloodMercury,None vs Low,718,104,-0.412,0.68078,False
+2003-2004,Gender,Male,NLR,None vs Medium,716,204,0.599,0.54962,False
+2003-2004,Gender,Male,MLR,None vs Medium,716,204,-1.991,0.04722,True
+2003-2004,Gender,Male,PLR,None vs Medium,716,204,-3.38,0.0008,True
+2003-2004,Gender,Male,SII,None vs Medium,716,204,0.242,0.80857,False
+2003-2004,Gender,Male,CRP,None vs Medium,698,203,3.702,0.00023,True
+2003-2004,Gender,Male,BloodMercury,None vs Medium,718,207,1.002,0.31701,False
+2003-2004,Gender,Male,NLR,None vs High,716,2973,-2.781,0.00552,True
+2003-2004,Gender,Male,MLR,None vs High,716,2973,-3.107,0.00194,True
+2003-2004,Gender,Male,PLR,None vs High,716,2973,-4.235,2e-05,True
+2003-2004,Gender,Male,SII,None vs High,716,2973,-0.368,0.71272,False
+2003-2004,Gender,Male,CRP,None vs High,698,2965,2.349,0.01907,True
+2003-2004,Gender,Male,BloodMercury,None vs High,718,2978,-6.657,0.0,True
+2003-2004,Race,Mexican American,NLR,None vs Low,355,46,-1.424,0.16055,False
+2003-2004,Race,Mexican American,MLR,None vs Low,355,46,-1.038,0.30414,False
+2003-2004,Race,Mexican American,PLR,None vs Low,355,46,-2.013,0.04891,True
+2003-2004,Race,Mexican American,SII,None vs Low,355,46,-1.452,0.1525,False
+2003-2004,Race,Mexican American,CRP,None vs Low,345,46,0.926,0.35677,False
+2003-2004,Race,Mexican American,BloodMercury,None vs Low,354,46,-0.651,0.51749,False
+2003-2004,Race,Mexican American,NLR,None vs Medium,355,110,-1.767,0.07882,False
+2003-2004,Race,Mexican American,MLR,None vs Medium,355,110,-1.903,0.05852,False
+2003-2004,Race,Mexican American,PLR,None vs Medium,355,110,-1.837,0.06763,False
+2003-2004,Race,Mexican American,SII,None vs Medium,355,110,-1.317,0.18926,False
+2003-2004,Race,Mexican American,CRP,None vs Medium,345,110,2.857,0.00448,True
+2003-2004,Race,Mexican American,BloodMercury,None vs Medium,354,110,-0.084,0.93308,False
+2003-2004,Race,Mexican American,NLR,None vs High,355,1497,-7.402,0.0,True
+2003-2004,Race,Mexican American,MLR,None vs High,355,1497,-4.572,1e-05,True
+2003-2004,Race,Mexican American,PLR,None vs High,355,1497,-4.866,0.0,True
+2003-2004,Race,Mexican American,SII,None vs High,355,1497,-5.9,0.0,True
+2003-2004,Race,Mexican American,CRP,None vs High,345,1486,1.117,0.26469,False
+2003-2004,Race,Mexican American,BloodMercury,None vs High,354,1500,-5.113,0.0,True
+2003-2004,Race,Non-Hispanic Black,NLR,None vs Low,374,50,-0.108,0.9145,False
+2003-2004,Race,Non-Hispanic Black,MLR,None vs Low,374,50,-1.435,0.15727,False
+2003-2004,Race,Non-Hispanic Black,PLR,None vs Low,374,50,-1.283,0.20474,False
+2003-2004,Race,Non-Hispanic Black,SII,None vs Low,374,50,-0.12,0.90517,False
+2003-2004,Race,Non-Hispanic Black,CRP,None vs Low,361,47,-1.038,0.30417,False
+2003-2004,Race,Non-Hispanic Black,BloodMercury,None vs Low,377,51,1.039,0.30045,False
+2003-2004,Race,Non-Hispanic Black,NLR,None vs Medium,374,106,0.186,0.8524,False
+2003-2004,Race,Non-Hispanic Black,MLR,None vs Medium,374,106,-1.326,0.18666,False
+2003-2004,Race,Non-Hispanic Black,PLR,None vs Medium,374,106,-2.554,0.01156,True
+2003-2004,Race,Non-Hispanic Black,SII,None vs Medium,374,106,-0.298,0.76625,False
+2003-2004,Race,Non-Hispanic Black,CRP,None vs Medium,361,106,1.059,0.29055,False
+2003-2004,Race,Non-Hispanic Black,BloodMercury,None vs Medium,377,108,1.047,0.29593,False
+2003-2004,Race,Non-Hispanic Black,NLR,None vs High,374,1617,-3.589,0.00036,True
+2003-2004,Race,Non-Hispanic Black,MLR,None vs High,374,1617,-5.065,0.0,True
+2003-2004,Race,Non-Hispanic Black,PLR,None vs High,374,1617,-4.988,0.0,True
+2003-2004,Race,Non-Hispanic Black,SII,None vs High,374,1617,-2.359,0.01869,True
+2003-2004,Race,Non-Hispanic Black,CRP,None vs High,361,1601,-0.355,0.7225,False
+2003-2004,Race,Non-Hispanic Black,BloodMercury,None vs High,377,1621,-0.879,0.37969,False
+2003-2004,Race,Non-Hispanic White,NLR,None vs Low,626,86,-1.043,0.29862,False
+2003-2004,Race,Non-Hispanic White,MLR,None vs Low,626,86,-2.036,0.04408,True
+2003-2004,Race,Non-Hispanic White,PLR,None vs Low,626,86,-0.4,0.68941,False
+2003-2004,Race,Non-Hispanic White,SII,None vs Low,626,86,-0.24,0.81077,False
+2003-2004,Race,Non-Hispanic White,CRP,None vs Low,619,84,0.579,0.5637,False
+2003-2004,Race,Non-Hispanic White,BloodMercury,None vs Low,627,86,-0.546,0.58585,False
+2003-2004,Race,Non-Hispanic White,NLR,None vs Medium,626,172,-0.079,0.93714,False
+2003-2004,Race,Non-Hispanic White,MLR,None vs Medium,626,172,-1.923,0.05543,False
+2003-2004,Race,Non-Hispanic White,PLR,None vs Medium,626,172,-2.182,0.03007,True
+2003-2004,Race,Non-Hispanic White,SII,None vs Medium,626,172,-0.45,0.6529,False
+2003-2004,Race,Non-Hispanic White,CRP,None vs Medium,619,172,1.593,0.11181,False
+2003-2004,Race,Non-Hispanic White,BloodMercury,None vs Medium,627,173,-0.941,0.34755,False
+2003-2004,Race,Non-Hispanic White,NLR,None vs High,626,2473,-2.33,0.02003,True
+2003-2004,Race,Non-Hispanic White,MLR,None vs High,626,2473,-1.034,0.30139,False
+2003-2004,Race,Non-Hispanic White,PLR,None vs High,626,2473,-1.805,0.07149,False
+2003-2004,Race,Non-Hispanic White,SII,None vs High,626,2473,-0.797,0.42565,False
+2003-2004,Race,Non-Hispanic White,CRP,None vs High,619,2458,2.446,0.01465,True
+2003-2004,Race,Non-Hispanic White,BloodMercury,None vs High,627,2480,-9.555,0.0,True
+2003-2004,Race,Other Hispanic,NLR,None vs Medium,56,11,-0.082,0.93557,False
+2003-2004,Race,Other Hispanic,MLR,None vs Medium,56,11,-0.531,0.603,False
+2003-2004,Race,Other Hispanic,PLR,None vs Medium,56,11,-1.316,0.21223,False
+2003-2004,Race,Other Hispanic,SII,None vs Medium,56,11,-0.325,0.74838,False
+2003-2004,Race,Other Hispanic,CRP,None vs Medium,55,11,0.777,0.44764,False
+2003-2004,Race,Other Hispanic,BloodMercury,None vs Medium,56,12,-0.614,0.55017,False
+2003-2004,Race,Other Hispanic,NLR,None vs High,56,190,-2.121,0.03668,True
+2003-2004,Race,Other Hispanic,MLR,None vs High,56,190,-2.848,0.00503,True
+2003-2004,Race,Other Hispanic,PLR,None vs High,56,190,-1.259,0.21147,False
+2003-2004,Race,Other Hispanic,SII,None vs High,56,190,-0.462,0.64543,False
+2003-2004,Race,Other Hispanic,CRP,None vs High,55,190,-1.497,0.1358,False
+2003-2004,Race,Other Hispanic,BloodMercury,None vs High,56,190,-2.48,0.01424,True
+2003-2004,Race,Other Race/Multi-Racial,NLR,None vs Medium,87,16,1.24,0.21874,False
+2003-2004,Race,Other Race/Multi-Racial,MLR,None vs Medium,87,16,-0.379,0.70847,False
+2003-2004,Race,Other Race/Multi-Racial,PLR,None vs Medium,87,16,0.456,0.6535,False
+2003-2004,Race,Other Race/Multi-Racial,SII,None vs Medium,87,16,1.369,0.17559,False
+2003-2004,Race,Other Race/Multi-Racial,CRP,None vs Medium,87,16,-0.235,0.81528,False
+2003-2004,Race,Other Race/Multi-Racial,BloodMercury,None vs Medium,87,16,-0.009,0.99295,False
+2003-2004,Race,Other Race/Multi-Racial,NLR,None vs High,87,231,-0.072,0.94244,False
+2003-2004,Race,Other Race/Multi-Racial,MLR,None vs High,87,231,0.421,0.67486,False
+2003-2004,Race,Other Race/Multi-Racial,PLR,None vs High,87,231,-1.457,0.1475,False
+2003-2004,Race,Other Race/Multi-Racial,SII,None vs High,87,231,-0.002,0.99808,False
+2003-2004,Race,Other Race/Multi-Racial,CRP,None vs High,87,232,-0.198,0.8438,False
+2003-2004,Race,Other Race/Multi-Racial,BloodMercury,None vs High,87,232,-1.485,0.1389,False
+2003-2004,AgeGroup,0–19,NLR,None vs Low,699,103,-3.229,0.00155,True
+2003-2004,AgeGroup,0–19,MLR,None vs Low,699,103,-2.556,0.01188,True
+2003-2004,AgeGroup,0–19,PLR,None vs Low,699,103,-3.906,0.00016,True
+2003-2004,AgeGroup,0–19,SII,None vs Low,699,103,-2.975,0.00348,True
+2003-2004,AgeGroup,0–19,CRP,None vs Low,670,101,-0.734,0.46412,False
+2003-2004,AgeGroup,0–19,BloodMercury,None vs Low,699,103,-1.756,0.08144,False
+2003-2004,AgeGroup,0–19,NLR,None vs Medium,699,212,-3.936,0.0001,True
+2003-2004,AgeGroup,0–19,MLR,None vs Medium,699,212,-3.851,0.00014,True
+2003-2004,AgeGroup,0–19,PLR,None vs Medium,699,212,-6.675,0.0,True
+2003-2004,AgeGroup,0–19,SII,None vs Medium,699,212,-3.192,0.00152,True
+2003-2004,AgeGroup,0–19,CRP,None vs Medium,670,209,-0.01,0.99211,False
+2003-2004,AgeGroup,0–19,BloodMercury,None vs Medium,699,213,-0.591,0.55515,False
+2003-2004,AgeGroup,0–19,NLR,None vs High,699,2602,-16.386,0.0,True
+2003-2004,AgeGroup,0–19,MLR,None vs High,699,2602,-11.103,0.0,True
+2003-2004,AgeGroup,0–19,PLR,None vs High,699,2602,-13.732,0.0,True
+2003-2004,AgeGroup,0–19,SII,None vs High,699,2602,-9.474,0.0,True
+2003-2004,AgeGroup,0–19,CRP,None vs High,670,2572,-4.84,0.0,True
+2003-2004,AgeGroup,0–19,BloodMercury,None vs High,699,2599,-6.153,0.0,True
+2003-2004,AgeGroup,20–39,NLR,None vs High,134,1413,-1.097,0.27426,False
+2003-2004,AgeGroup,20–39,MLR,None vs High,134,1413,-1.847,0.06641,False
+2003-2004,AgeGroup,20–39,PLR,None vs High,134,1413,0.033,0.97383,False
+2003-2004,AgeGroup,20–39,SII,None vs High,134,1413,-0.473,0.63658,False
+2003-2004,AgeGroup,20–39,CRP,None vs High,135,1414,0.2,0.8418,False
+2003-2004,AgeGroup,20–39,BloodMercury,None vs High,135,1425,-0.354,0.7238,False
+2003-2004,AgeGroup,40–59,NLR,None vs Low,169,10,0.814,0.43152,False
+2003-2004,AgeGroup,40–59,MLR,None vs Low,169,10,0.225,0.82614,False
+2003-2004,AgeGroup,40–59,PLR,None vs Low,169,10,1.539,0.15226,False
+2003-2004,AgeGroup,40–59,SII,None vs Low,169,10,0.433,0.67406,False
+2003-2004,AgeGroup,40–59,BloodMercury,None vs Low,170,10,0.084,0.93458,False
+2003-2004,AgeGroup,40–59,NLR,None vs Medium,169,48,0.47,0.63925,False
+2003-2004,AgeGroup,40–59,MLR,None vs Medium,169,48,0.591,0.55622,False
+2003-2004,AgeGroup,40–59,PLR,None vs Medium,169,48,0.394,0.69459,False
+2003-2004,AgeGroup,40–59,SII,None vs Medium,169,48,-0.274,0.78455,False
+2003-2004,AgeGroup,40–59,CRP,None vs Medium,170,49,1.446,0.1501,False
+2003-2004,AgeGroup,40–59,BloodMercury,None vs Medium,170,49,2.121,0.03524,True
+2003-2004,AgeGroup,40–59,NLR,None vs High,169,1052,0.676,0.4997,False
+2003-2004,AgeGroup,40–59,MLR,None vs High,169,1052,-0.579,0.56314,False
+2003-2004,AgeGroup,40–59,PLR,None vs High,169,1052,-2.118,0.0353,True
+2003-2004,AgeGroup,40–59,SII,None vs High,169,1052,0.251,0.8021,False
+2003-2004,AgeGroup,40–59,CRP,None vs High,170,1049,1.729,0.0854,False
+2003-2004,AgeGroup,40–59,BloodMercury,None vs High,170,1056,-1.506,0.13361,False
+2003-2004,AgeGroup,60+,NLR,None vs Low,496,80,-0.16,0.87312,False
+2003-2004,AgeGroup,60+,MLR,None vs Low,496,80,-0.785,0.43421,False
+2003-2004,AgeGroup,60+,PLR,None vs Low,496,80,0.879,0.38088,False
+2003-2004,AgeGroup,60+,SII,None vs Low,496,80,0.966,0.33507,False
+2003-2004,AgeGroup,60+,CRP,None vs Low,492,79,-0.003,0.99765,False
+2003-2004,AgeGroup,60+,BloodMercury,None vs Low,497,81,-0.828,0.4097,False
+2003-2004,AgeGroup,60+,NLR,None vs Medium,496,149,1.259,0.20917,False
+2003-2004,AgeGroup,60+,MLR,None vs Medium,496,149,-0.972,0.3322,False
+2003-2004,AgeGroup,60+,PLR,None vs Medium,496,149,-0.085,0.93231,False
+2003-2004,AgeGroup,60+,SII,None vs Medium,496,149,1.022,0.30729,False
+2003-2004,AgeGroup,60+,CRP,None vs Medium,492,151,2.412,0.0162,True
+2003-2004,AgeGroup,60+,BloodMercury,None vs Medium,497,151,-1.56,0.12021,False
+2003-2004,AgeGroup,60+,NLR,None vs High,496,941,1.899,0.0579,False
+2003-2004,AgeGroup,60+,MLR,None vs High,496,941,0.532,0.59457,False
+2003-2004,AgeGroup,60+,PLR,None vs High,496,941,1.875,0.0611,False
+2003-2004,AgeGroup,60+,SII,None vs High,496,941,2.143,0.03249,True
+2003-2004,AgeGroup,60+,CRP,None vs High,492,932,2.806,0.00514,True
+2003-2004,AgeGroup,60+,BloodMercury,None vs High,497,943,-6.443,0.0,True
+2009-2010,Gender,Female,NLR,None vs Low,846,78,1.508,0.13476,False
+2009-2010,Gender,Female,MLR,None vs Low,846,78,1.434,0.15477,False
+2009-2010,Gender,Female,PLR,None vs Low,846,78,0.261,0.79444,False
+2009-2010,Gender,Female,SII,None vs Low,846,78,0.117,0.90747,False
+2009-2010,Gender,Female,CRP,None vs Low,830,75,-0.481,0.63152,False
+2009-2010,Gender,Female,BloodMercury,None vs Low,846,78,2.291,0.02349,True
+2009-2010,Gender,Female,NLR,None vs Medium,846,199,3.124,0.00192,True
+2009-2010,Gender,Female,MLR,None vs Medium,846,199,1.846,0.06581,False
+2009-2010,Gender,Female,PLR,None vs Medium,846,199,0.322,0.74751,False
+2009-2010,Gender,Female,SII,None vs Medium,846,199,0.676,0.49973,False
+2009-2010,Gender,Female,CRP,None vs Medium,830,200,1.315,0.18939,False
+2009-2010,Gender,Female,BloodMercury,None vs Medium,846,201,0.863,0.38894,False
+2009-2010,Gender,Female,NLR,None vs High,846,2572,0.164,0.8696,False
+2009-2010,Gender,Female,MLR,None vs High,846,2572,0.706,0.48006,False
+2009-2010,Gender,Female,PLR,None vs High,846,2572,-0.242,0.80854,False
+2009-2010,Gender,Female,SII,None vs High,846,2572,-0.287,0.77434,False
+2009-2010,Gender,Female,CRP,None vs High,830,2559,2.844,0.00451,True
+2009-2010,Gender,Female,BloodMercury,None vs High,846,2578,-3.985,7e-05,True
+2009-2010,Gender,Male,NLR,None vs Low,748,99,4.24,4e-05,True
+2009-2010,Gender,Male,MLR,None vs Low,748,99,3.537,0.00052,True
+2009-2010,Gender,Male,PLR,None vs Low,748,99,-0.947,0.34522,False
+2009-2010,Gender,Male,SII,None vs Low,748,99,1.582,0.11582,False
+2009-2010,Gender,Male,CRP,None vs Low,731,97,1.072,0.28571,False
+2009-2010,Gender,Male,BloodMercury,None vs Low,745,99,0.156,0.87598,False
+2009-2010,Gender,Male,NLR,None vs Medium,748,236,2.503,0.01264,True
+2009-2010,Gender,Male,MLR,None vs Medium,748,236,1.734,0.08369,False
+2009-2010,Gender,Male,PLR,None vs Medium,748,236,-1.249,0.21229,False
+2009-2010,Gender,Male,SII,None vs Medium,748,236,0.253,0.80002,False
+2009-2010,Gender,Male,CRP,None vs Medium,731,230,2.722,0.00661,True
+2009-2010,Gender,Male,BloodMercury,None vs Medium,745,236,2.281,0.023,True
+2009-2010,Gender,Male,NLR,None vs High,748,2619,3.208,0.00138,True
+2009-2010,Gender,Male,MLR,None vs High,748,2619,3.346,0.00085,True
+2009-2010,Gender,Male,PLR,None vs High,748,2619,0.019,0.98489,False
+2009-2010,Gender,Male,SII,None vs High,748,2619,1.86,0.06302,False
+2009-2010,Gender,Male,CRP,None vs High,731,2610,2.863,0.00429,True
+2009-2010,Gender,Male,BloodMercury,None vs High,745,2625,-3.404,0.00068,True
+2009-2010,Race,Mexican American,NLR,None vs Low,303,39,1.263,0.212,False
+2009-2010,Race,Mexican American,MLR,None vs Low,303,39,0.945,0.34902,False
+2009-2010,Race,Mexican American,PLR,None vs Low,303,39,-0.18,0.85792,False
+2009-2010,Race,Mexican American,SII,None vs Low,303,39,0.144,0.88645,False
+2009-2010,Race,Mexican American,CRP,None vs Low,298,38,1.333,0.18665,False
+2009-2010,Race,Mexican American,BloodMercury,None vs Low,303,39,0.501,0.61757,False
+2009-2010,Race,Mexican American,NLR,None vs Medium,303,94,0.686,0.4934,False
+2009-2010,Race,Mexican American,MLR,None vs Medium,303,94,-0.031,0.97524,False
+2009-2010,Race,Mexican American,PLR,None vs Medium,303,94,-1.618,0.10755,False
+2009-2010,Race,Mexican American,SII,None vs Medium,303,94,-1.698,0.09154,False
+2009-2010,Race,Mexican American,CRP,None vs Medium,298,93,1.168,0.24418,False
+2009-2010,Race,Mexican American,BloodMercury,None vs Medium,303,94,2.405,0.0167,True
+2009-2010,Race,Mexican American,NLR,None vs High,303,1174,-2.069,0.03902,True
+2009-2010,Race,Mexican American,MLR,None vs High,303,1174,-1.373,0.1705,False
+2009-2010,Race,Mexican American,PLR,None vs High,303,1174,-1.04,0.29898,False
+2009-2010,Race,Mexican American,SII,None vs High,303,1174,-1.929,0.05391,False
+2009-2010,Race,Mexican American,CRP,None vs High,298,1171,1.693,0.09123,False
+2009-2010,Race,Mexican American,BloodMercury,None vs High,303,1175,-0.541,0.58848,False
+2009-2010,Race,Non-Hispanic Black,NLR,None vs Low,252,34,-0.409,0.68436,False
+2009-2010,Race,Non-Hispanic Black,MLR,None vs Low,252,34,-0.814,0.42018,False
+2009-2010,Race,Non-Hispanic Black,PLR,None vs Low,252,34,-1.761,0.08607,False
+2009-2010,Race,Non-Hispanic Black,SII,None vs Low,252,34,-1.062,0.29444,False
+2009-2010,Race,Non-Hispanic Black,CRP,None vs Low,240,34,0.779,0.4401,False
+2009-2010,Race,Non-Hispanic Black,BloodMercury,None vs Low,252,34,-0.025,0.97998,False
+2009-2010,Race,Non-Hispanic Black,NLR,None vs Medium,252,99,1.384,0.16757,False
+2009-2010,Race,Non-Hispanic Black,MLR,None vs Medium,252,99,0.023,0.98172,False
+2009-2010,Race,Non-Hispanic Black,PLR,None vs Medium,252,99,-1.028,0.30531,False
+2009-2010,Race,Non-Hispanic Black,SII,None vs Medium,252,99,0.444,0.65768,False
+2009-2010,Race,Non-Hispanic Black,CRP,None vs Medium,240,98,-0.457,0.64803,False
+2009-2010,Race,Non-Hispanic Black,BloodMercury,None vs Medium,252,100,-0.295,0.76867,False
+2009-2010,Race,Non-Hispanic Black,NLR,None vs High,252,942,1.229,0.22012,False
+2009-2010,Race,Non-Hispanic Black,MLR,None vs High,252,942,-0.088,0.93002,False
+2009-2010,Race,Non-Hispanic Black,PLR,None vs High,252,942,-0.482,0.63018,False
+2009-2010,Race,Non-Hispanic Black,SII,None vs High,252,942,0.947,0.34452,False
+2009-2010,Race,Non-Hispanic Black,CRP,None vs High,240,935,-0.628,0.5303,False
+2009-2010,Race,Non-Hispanic Black,BloodMercury,None vs High,252,945,-2.584,0.00999,True
+2009-2010,Race,Non-Hispanic White,NLR,None vs Low,793,75,3.919,0.00015,True
+2009-2010,Race,Non-Hispanic White,MLR,None vs Low,793,75,3.826,0.00021,True
+2009-2010,Race,Non-Hispanic White,PLR,None vs Low,793,75,0.37,0.71191,False
+2009-2010,Race,Non-Hispanic White,SII,None vs Low,793,75,1.446,0.15124,False
+2009-2010,Race,Non-Hispanic White,CRP,None vs Low,783,71,-0.735,0.46466,False
+2009-2010,Race,Non-Hispanic White,BloodMercury,None vs Low,792,75,5.814,0.0,True
+2009-2010,Race,Non-Hispanic White,NLR,None vs Medium,793,178,2.983,0.00307,True
+2009-2010,Race,Non-Hispanic White,MLR,None vs Medium,793,178,1.693,0.09168,False
+2009-2010,Race,Non-Hispanic White,PLR,None vs Medium,793,178,0.071,0.94318,False
+2009-2010,Race,Non-Hispanic White,SII,None vs Medium,793,178,1.344,0.18013,False
+2009-2010,Race,Non-Hispanic White,CRP,None vs Medium,783,176,3.761,0.00019,True
+2009-2010,Race,Non-Hispanic White,BloodMercury,None vs Medium,792,178,1.651,0.09998,False
+2009-2010,Race,Non-Hispanic White,NLR,None vs High,793,2189,3.561,0.00039,True
+2009-2010,Race,Non-Hispanic White,MLR,None vs High,793,2189,3.213,0.00135,True
+2009-2010,Race,Non-Hispanic White,PLR,None vs High,793,2189,0.485,0.6279,False
+2009-2010,Race,Non-Hispanic White,SII,None vs High,793,2189,3.181,0.00151,True
+2009-2010,Race,Non-Hispanic White,CRP,None vs High,783,2179,4.306,2e-05,True
+2009-2010,Race,Non-Hispanic White,BloodMercury,None vs High,792,2193,-5.583,0.0,True
+2009-2010,Race,Other Hispanic,NLR,None vs Low,159,19,3.126,0.00362,True
+2009-2010,Race,Other Hispanic,MLR,None vs Low,159,19,1.212,0.23625,False
+2009-2010,Race,Other Hispanic,PLR,None vs Low,159,19,1.473,0.14909,False
+2009-2010,Race,Other Hispanic,SII,None vs Low,159,19,0.842,0.40805,False
+2009-2010,Race,Other Hispanic,CRP,None vs Low,154,19,2.461,0.0164,True
+2009-2010,Race,Other Hispanic,BloodMercury,None vs Low,157,19,2.176,0.03554,True
+2009-2010,Race,Other Hispanic,NLR,None vs Medium,159,41,-0.454,0.65139,False
+2009-2010,Race,Other Hispanic,MLR,None vs Medium,159,41,-0.282,0.77897,False
+2009-2010,Race,Other Hispanic,PLR,None vs Medium,159,41,0.91,0.3662,False
+2009-2010,Race,Other Hispanic,SII,None vs Medium,159,41,-1.148,0.25621,False
+2009-2010,Race,Other Hispanic,CRP,None vs Medium,154,41,1.489,0.13841,False
+2009-2010,Race,Other Hispanic,BloodMercury,None vs Medium,157,42,-0.035,0.97197,False
+2009-2010,Race,Other Hispanic,NLR,None vs High,159,584,-0.874,0.38296,False
+2009-2010,Race,Other Hispanic,MLR,None vs High,159,584,-0.675,0.50022,False
+2009-2010,Race,Other Hispanic,PLR,None vs High,159,584,-0.064,0.94877,False
+2009-2010,Race,Other Hispanic,SII,None vs High,159,584,-1.391,0.16539,False
+2009-2010,Race,Other Hispanic,CRP,None vs High,154,579,1.528,0.12794,False
+2009-2010,Race,Other Hispanic,BloodMercury,None vs High,157,583,-2.355,0.019,True
+2009-2010,Race,Other Race/Multi-Racial,NLR,None vs Low,87,10,0.606,0.55707,False
+2009-2010,Race,Other Race/Multi-Racial,MLR,None vs Low,87,10,0.411,0.68694,False
+2009-2010,Race,Other Race/Multi-Racial,PLR,None vs Low,87,10,0.068,0.94676,False
+2009-2010,Race,Other Race/Multi-Racial,SII,None vs Low,87,10,1.342,0.1946,False
+2009-2010,Race,Other Race/Multi-Racial,CRP,None vs Low,86,10,1.871,0.0696,False
+2009-2010,Race,Other Race/Multi-Racial,BloodMercury,None vs Low,87,10,-0.682,0.51187,False
+2009-2010,Race,Other Race/Multi-Racial,NLR,None vs Medium,87,23,-0.459,0.65,False
+2009-2010,Race,Other Race/Multi-Racial,MLR,None vs Medium,87,23,-0.321,0.75032,False
+2009-2010,Race,Other Race/Multi-Racial,PLR,None vs Medium,87,23,0.311,0.75707,False
+2009-2010,Race,Other Race/Multi-Racial,SII,None vs Medium,87,23,-0.525,0.60298,False
+2009-2010,Race,Other Race/Multi-Racial,CRP,None vs Medium,86,22,-0.194,0.84701,False
+2009-2010,Race,Other Race/Multi-Racial,BloodMercury,None vs Medium,87,23,1.883,0.06318,False
+2009-2010,Race,Other Race/Multi-Racial,NLR,None vs High,87,302,-1.512,0.13291,False
+2009-2010,Race,Other Race/Multi-Racial,MLR,None vs High,87,302,-0.097,0.92275,False
+2009-2010,Race,Other Race/Multi-Racial,PLR,None vs High,87,302,-0.794,0.42865,False
+2009-2010,Race,Other Race/Multi-Racial,SII,None vs High,87,302,-0.54,0.5905,False
+2009-2010,Race,Other Race/Multi-Racial,CRP,None vs High,86,305,0.548,0.58492,False
+2009-2010,Race,Other Race/Multi-Racial,BloodMercury,None vs High,87,307,-1.048,0.29581,False
+2009-2010,AgeGroup,0–19,NLR,None vs Low,451,105,-0.948,0.34436,False
+2009-2010,AgeGroup,0–19,MLR,None vs Low,451,105,-1.214,0.22644,False
+2009-2010,AgeGroup,0–19,PLR,None vs Low,451,105,-1.487,0.13892,False
+2009-2010,AgeGroup,0–19,SII,None vs Low,451,105,-0.601,0.54859,False
+2009-2010,AgeGroup,0–19,CRP,None vs Low,431,100,1.371,0.17118,False
+2009-2010,AgeGroup,0–19,BloodMercury,None vs Low,446,105,1.835,0.06708,False
+2009-2010,AgeGroup,0–19,NLR,None vs Medium,451,226,-1.827,0.06831,False
+2009-2010,AgeGroup,0–19,MLR,None vs Medium,451,226,-1.403,0.16148,False
+2009-2010,AgeGroup,0–19,PLR,None vs Medium,451,226,-2.0,0.04602,True
+2009-2010,AgeGroup,0–19,SII,None vs Medium,451,226,-1.138,0.25577,False
+2009-2010,AgeGroup,0–19,CRP,None vs Medium,431,220,1.446,0.14864,False
+2009-2010,AgeGroup,0–19,BloodMercury,None vs Medium,446,226,0.386,0.69965,False
+2009-2010,AgeGroup,0–19,NLR,None vs High,451,1834,-10.123,0.0,True
+2009-2010,AgeGroup,0–19,MLR,None vs High,451,1834,-8.242,0.0,True
+2009-2010,AgeGroup,0–19,PLR,None vs High,451,1834,-4.051,6e-05,True
+2009-2010,AgeGroup,0–19,SII,None vs High,451,1834,-3.93,9e-05,True
+2009-2010,AgeGroup,0–19,CRP,None vs High,431,1820,0.469,0.63946,False
+2009-2010,AgeGroup,0–19,BloodMercury,None vs High,446,1835,-1.734,0.08347,False
+2009-2010,AgeGroup,20–39,NLR,None vs High,110,832,-0.505,0.61431,False
+2009-2010,AgeGroup,20–39,MLR,None vs High,110,832,-2.511,0.01308,True
+2009-2010,AgeGroup,20–39,PLR,None vs High,110,832,0.452,0.65195,False
+2009-2010,AgeGroup,20–39,SII,None vs High,110,832,0.428,0.66943,False
+2009-2010,AgeGroup,20–39,CRP,None vs High,109,833,0.431,0.66709,False
+2009-2010,AgeGroup,20–39,BloodMercury,None vs High,110,834,-2.298,0.0224,True
+2009-2010,AgeGroup,40–59,NLR,None vs Low,327,15,1.22,0.23717,False
+2009-2010,AgeGroup,40–59,MLR,None vs Low,327,15,1.526,0.14573,False
+2009-2010,AgeGroup,40–59,PLR,None vs Low,327,15,0.707,0.49032,False
+2009-2010,AgeGroup,40–59,SII,None vs Low,327,15,0.033,0.97427,False
+2009-2010,AgeGroup,40–59,CRP,None vs Low,322,15,-0.652,0.52492,False
+2009-2010,AgeGroup,40–59,BloodMercury,None vs Low,325,15,1.403,0.17869,False
+2009-2010,AgeGroup,40–59,NLR,None vs Medium,327,65,-1.199,0.23289,False
+2009-2010,AgeGroup,40–59,MLR,None vs Medium,327,65,-1.568,0.1211,False
+2009-2010,AgeGroup,40–59,PLR,None vs Medium,327,65,-1.346,0.1816,False
+2009-2010,AgeGroup,40–59,SII,None vs Medium,327,65,-1.091,0.27738,False
+2009-2010,AgeGroup,40–59,CRP,None vs Medium,322,64,0.022,0.98233,False
+2009-2010,AgeGroup,40–59,BloodMercury,None vs Medium,325,65,0.184,0.85423,False
+2009-2010,AgeGroup,40–59,NLR,None vs High,327,1522,1.263,0.20731,False
+2009-2010,AgeGroup,40–59,MLR,None vs High,327,1522,-0.536,0.5923,False
+2009-2010,AgeGroup,40–59,PLR,None vs High,327,1522,-0.652,0.51496,False
+2009-2010,AgeGroup,40–59,SII,None vs High,327,1522,1.103,0.27065,False
+2009-2010,AgeGroup,40–59,CRP,None vs High,322,1519,1.788,0.07426,False
+2009-2010,AgeGroup,40–59,BloodMercury,None vs High,325,1530,-3.643,0.00028,True
+2009-2010,AgeGroup,60+,NLR,None vs Low,706,56,0.602,0.54925,False
+2009-2010,AgeGroup,60+,MLR,None vs Low,706,56,1.706,0.09222,False
+2009-2010,AgeGroup,60+,PLR,None vs Low,706,56,-1.251,0.21549,False
+2009-2010,AgeGroup,60+,SII,None vs Low,706,56,-0.672,0.50427,False
+2009-2010,AgeGroup,60+,CRP,None vs Low,699,56,-1.169,0.24666,False
+2009-2010,AgeGroup,60+,BloodMercury,None vs Low,710,56,-0.972,0.33541,False
+2009-2010,AgeGroup,60+,NLR,None vs Medium,706,137,1.217,0.22521,False
+2009-2010,AgeGroup,60+,MLR,None vs Medium,706,137,1.103,0.27165,False
+2009-2010,AgeGroup,60+,PLR,None vs Medium,706,137,-0.635,0.52616,False
+2009-2010,AgeGroup,60+,SII,None vs Medium,706,137,-0.889,0.37538,False
+2009-2010,AgeGroup,60+,CRP,None vs Medium,699,139,0.356,0.7219,False
+2009-2010,AgeGroup,60+,BloodMercury,None vs Medium,710,139,-0.053,0.95758,False
+2009-2010,AgeGroup,60+,NLR,None vs High,706,1003,3.223,0.00129,True
+2009-2010,AgeGroup,60+,MLR,None vs High,706,1003,3.41,0.00067,True
+2009-2010,AgeGroup,60+,PLR,None vs High,706,1003,0.869,0.385,False
+2009-2010,AgeGroup,60+,SII,None vs High,706,1003,0.766,0.44375,False
+2009-2010,AgeGroup,60+,CRP,None vs High,699,997,2.766,0.00577,True
+2009-2010,AgeGroup,60+,BloodMercury,None vs High,710,1004,-6.003,0.0,True
+2015-2016,Gender,Female,NLR,None vs Low,659,89,0.471,0.63852,False
+2015-2016,Gender,Female,MLR,None vs Low,659,89,1.17,0.24389,False
+2015-2016,Gender,Female,PLR,None vs Low,659,89,-0.601,0.54862,False
+2015-2016,Gender,Female,SII,None vs Low,659,89,0.069,0.94516,False
+2015-2016,Gender,Female,CRP,None vs Low,583,84,0.187,0.85191,False
+2015-2016,Gender,Female,BloodMercury,None vs Low,501,70,0.404,0.6873,False
+2015-2016,Gender,Female,NLR,None vs Medium,659,210,-3.041,0.00251,True
+2015-2016,Gender,Female,MLR,None vs Medium,659,210,-2.456,0.01455,True
+2015-2016,Gender,Female,PLR,None vs Medium,659,210,-2.202,0.02824,True
+2015-2016,Gender,Female,SII,None vs Medium,659,210,-2.318,0.0209,True
+2015-2016,Gender,Female,CRP,None vs Medium,583,203,-1.013,0.3119,False
+2015-2016,Gender,Female,BloodMercury,None vs Medium,501,158,-0.219,0.82712,False
+2015-2016,Gender,Female,NLR,None vs High,659,3166,-7.105,0.0,True
+2015-2016,Gender,Female,MLR,None vs High,659,3166,-6.093,0.0,True
+2015-2016,Gender,Female,PLR,None vs High,659,3166,-8.178,0.0,True
+2015-2016,Gender,Female,SII,None vs High,659,3166,-5.705,0.0,True
+2015-2016,Gender,Female,CRP,None vs High,583,3132,-1.814,0.06993,False
+2015-2016,Gender,Female,BloodMercury,None vs High,501,1771,-5.997,0.0,True
+2015-2016,Gender,Male,NLR,None vs Low,666,110,-2.176,0.03128,True
+2015-2016,Gender,Male,MLR,None vs Low,666,110,-2.188,0.03029,True
+2015-2016,Gender,Male,PLR,None vs Low,666,110,-2.994,0.00323,True
+2015-2016,Gender,Male,SII,None vs Low,666,110,-2.331,0.02125,True
+2015-2016,Gender,Male,CRP,None vs Low,588,98,0.014,0.9889,False
+2015-2016,Gender,Male,BloodMercury,None vs Low,535,85,-0.521,0.60355,False
+2015-2016,Gender,Male,NLR,None vs Medium,666,230,-3.926,0.00011,True
+2015-2016,Gender,Male,MLR,None vs Medium,666,230,-3.523,0.00049,True
+2015-2016,Gender,Male,PLR,None vs Medium,666,230,-4.812,0.0,True
+2015-2016,Gender,Male,SII,None vs Medium,666,230,-3.721,0.00024,True
+2015-2016,Gender,Male,CRP,None vs Medium,588,223,-0.346,0.72929,False
+2015-2016,Gender,Male,BloodMercury,None vs Medium,535,184,-0.322,0.7475,False
+2015-2016,Gender,Male,NLR,None vs High,666,2986,-8.115,0.0,True
+2015-2016,Gender,Male,MLR,None vs High,666,2986,-5.679,0.0,True
+2015-2016,Gender,Male,PLR,None vs High,666,2986,-6.997,0.0,True
+2015-2016,Gender,Male,SII,None vs High,666,2986,-5.679,0.0,True
+2015-2016,Gender,Male,CRP,None vs High,588,2956,1.232,0.21832,False
+2015-2016,Gender,Male,BloodMercury,None vs High,535,1684,-8.559,0.0,True
+2015-2016,Race,Mexican American,NLR,None vs Low,240,40,-1.45,0.15136,False
+2015-2016,Race,Mexican American,MLR,None vs Low,240,40,-0.803,0.42562,False
+2015-2016,Race,Mexican American,PLR,None vs Low,240,40,-1.612,0.11191,False
+2015-2016,Race,Mexican American,SII,None vs Low,240,40,-1.083,0.282,False
+2015-2016,Race,Mexican American,CRP,None vs Low,211,37,0.803,0.4232,False
+2015-2016,Race,Mexican American,BloodMercury,None vs Low,205,34,-1.552,0.1296,False
+2015-2016,Race,Mexican American,NLR,None vs Medium,240,91,-3.196,0.00172,True
+2015-2016,Race,Mexican American,MLR,None vs Medium,240,91,-2.797,0.00597,True
+2015-2016,Race,Mexican American,PLR,None vs Medium,240,91,-2.889,0.00426,True
+2015-2016,Race,Mexican American,SII,None vs Medium,240,91,-2.652,0.00875,True
+2015-2016,Race,Mexican American,CRP,None vs Medium,211,88,1.237,0.21717,False
+2015-2016,Race,Mexican American,BloodMercury,None vs Medium,205,78,-0.842,0.40128,False
+2015-2016,Race,Mexican American,NLR,None vs High,240,1234,-6.124,0.0,True
+2015-2016,Race,Mexican American,MLR,None vs High,240,1234,-4.69,0.0,True
+2015-2016,Race,Mexican American,PLR,None vs High,240,1234,-3.332,0.00098,True
+2015-2016,Race,Mexican American,SII,None vs High,240,1234,-3.268,0.00122,True
+2015-2016,Race,Mexican American,CRP,None vs High,211,1221,0.272,0.78609,False
+2015-2016,Race,Mexican American,BloodMercury,None vs High,205,677,-4.123,4e-05,True
+2015-2016,Race,Non-Hispanic Black,NLR,None vs Low,293,56,-0.179,0.85886,False
+2015-2016,Race,Non-Hispanic Black,MLR,None vs Low,293,56,0.871,0.38654,False
+2015-2016,Race,Non-Hispanic Black,PLR,None vs Low,293,56,-0.705,0.48318,False
+2015-2016,Race,Non-Hispanic Black,SII,None vs Low,293,56,-0.331,0.74173,False
+2015-2016,Race,Non-Hispanic Black,CRP,None vs Low,255,48,1.918,0.05807,False
+2015-2016,Race,Non-Hispanic Black,BloodMercury,None vs Low,228,45,0.721,0.47362,False
+2015-2016,Race,Non-Hispanic Black,NLR,None vs Medium,293,88,-2.837,0.00526,True
+2015-2016,Race,Non-Hispanic Black,MLR,None vs Medium,293,88,-1.706,0.08989,False
+2015-2016,Race,Non-Hispanic Black,PLR,None vs Medium,293,88,-2.812,0.00578,True
+2015-2016,Race,Non-Hispanic Black,SII,None vs Medium,293,88,-2.797,0.00596,True
+2015-2016,Race,Non-Hispanic Black,CRP,None vs Medium,255,88,-1.788,0.07692,False
+2015-2016,Race,Non-Hispanic Black,BloodMercury,None vs Medium,228,69,-0.713,0.47752,False
+2015-2016,Race,Non-Hispanic Black,NLR,None vs High,293,1270,-5.568,0.0,True
+2015-2016,Race,Non-Hispanic Black,MLR,None vs High,293,1270,-2.178,0.03003,True
+2015-2016,Race,Non-Hispanic Black,PLR,None vs High,293,1270,-5.609,0.0,True
+2015-2016,Race,Non-Hispanic Black,SII,None vs High,293,1270,-4.779,0.0,True
+2015-2016,Race,Non-Hispanic Black,CRP,None vs High,255,1255,-1.296,0.1955,False
+2015-2016,Race,Non-Hispanic Black,BloodMercury,None vs High,228,728,-5.381,0.0,True
+2015-2016,Race,Non-Hispanic White,NLR,None vs Low,428,55,-0.944,0.34728,False
+2015-2016,Race,Non-Hispanic White,MLR,None vs Low,428,55,-1.368,0.17551,False
+2015-2016,Race,Non-Hispanic White,PLR,None vs Low,428,55,-1.345,0.18282,False
+2015-2016,Race,Non-Hispanic White,SII,None vs Low,428,55,-0.785,0.4342,False
+2015-2016,Race,Non-Hispanic White,CRP,None vs Low,379,53,-0.322,0.74826,False
+2015-2016,Race,Non-Hispanic White,BloodMercury,None vs Low,324,38,-0.385,0.70169,False
+2015-2016,Race,Non-Hispanic White,NLR,None vs Medium,428,137,-2.097,0.03718,True
+2015-2016,Race,Non-Hispanic White,MLR,None vs Medium,428,137,-2.528,0.01232,True
+2015-2016,Race,Non-Hispanic White,PLR,None vs Medium,428,137,-1.984,0.04865,True
+2015-2016,Race,Non-Hispanic White,SII,None vs Medium,428,137,-1.574,0.11709,False
+2015-2016,Race,Non-Hispanic White,CRP,None vs Medium,379,133,-0.255,0.79898,False
+2015-2016,Race,Non-Hispanic White,BloodMercury,None vs Medium,324,95,-0.647,0.51826,False
+2015-2016,Race,Non-Hispanic White,NLR,None vs High,428,1878,-3.99,8e-05,True
+2015-2016,Race,Non-Hispanic White,MLR,None vs High,428,1878,-4.386,1e-05,True
+2015-2016,Race,Non-Hispanic White,PLR,None vs High,428,1878,-6.02,0.0,True
+2015-2016,Race,Non-Hispanic White,SII,None vs High,428,1878,-3.33,0.00093,True
+2015-2016,Race,Non-Hispanic White,CRP,None vs High,379,1868,0.828,0.40815,False
+2015-2016,Race,Non-Hispanic White,BloodMercury,None vs High,324,1054,-8.495,0.0,True
+2015-2016,Race,Other Hispanic,NLR,None vs Low,170,27,-2.211,0.03382,True
+2015-2016,Race,Other Hispanic,MLR,None vs Low,170,27,-1.642,0.10935,False
+2015-2016,Race,Other Hispanic,PLR,None vs Low,170,27,-1.015,0.31734,False
+2015-2016,Race,Other Hispanic,SII,None vs Low,170,27,-1.754,0.08875,False
+2015-2016,Race,Other Hispanic,CRP,None vs Low,151,24,-1.518,0.13954,False
+2015-2016,Race,Other Hispanic,BloodMercury,None vs Low,126,23,0.116,0.90803,False
+2015-2016,Race,Other Hispanic,NLR,None vs Medium,170,68,-2.408,0.01748,True
+2015-2016,Race,Other Hispanic,MLR,None vs Medium,170,68,-1.538,0.12652,False
+2015-2016,Race,Other Hispanic,PLR,None vs Medium,170,68,-2.938,0.00386,True
+2015-2016,Race,Other Hispanic,SII,None vs Medium,170,68,-1.781,0.07723,False
+2015-2016,Race,Other Hispanic,CRP,None vs Medium,151,66,-0.901,0.37091,False
+2015-2016,Race,Other Hispanic,BloodMercury,None vs Medium,126,56,-0.271,0.78668,False
+2015-2016,Race,Other Hispanic,NLR,None vs High,170,814,-6.845,0.0,True
+2015-2016,Race,Other Hispanic,MLR,None vs High,170,814,-4.584,1e-05,True
+2015-2016,Race,Other Hispanic,PLR,None vs High,170,814,-6.213,0.0,True
+2015-2016,Race,Other Hispanic,SII,None vs High,170,814,-6.072,0.0,True
+2015-2016,Race,Other Hispanic,CRP,None vs High,151,805,-2.489,0.01323,True
+2015-2016,Race,Other Hispanic,BloodMercury,None vs High,126,465,-2.458,0.01474,True
+2015-2016,Race,Other Race/Multi-Racial,NLR,None vs Low,194,21,-0.527,0.60328,False
+2015-2016,Race,Other Race/Multi-Racial,MLR,None vs Low,194,21,-1.052,0.30432,False
+2015-2016,Race,Other Race/Multi-Racial,PLR,None vs Low,194,21,-1.448,0.16057,False
+2015-2016,Race,Other Race/Multi-Racial,SII,None vs Low,194,21,-1.285,0.21218,False
+2015-2016,Race,Other Race/Multi-Racial,CRP,None vs Low,175,20,-0.441,0.66413,False
+2015-2016,Race,Other Race/Multi-Racial,BloodMercury,None vs Low,153,15,0.341,0.73674,False
+2015-2016,Race,Other Race/Multi-Racial,NLR,None vs Medium,194,56,-1.7,0.09397,False
+2015-2016,Race,Other Race/Multi-Racial,MLR,None vs Medium,194,56,-1.18,0.24222,False
+2015-2016,Race,Other Race/Multi-Racial,PLR,None vs Medium,194,56,-2.008,0.04822,True
+2015-2016,Race,Other Race/Multi-Racial,SII,None vs Medium,194,56,-1.661,0.10114,False
+2015-2016,Race,Other Race/Multi-Racial,CRP,None vs Medium,175,51,0.727,0.46968,False
+2015-2016,Race,Other Race/Multi-Racial,BloodMercury,None vs Medium,153,44,0.76,0.44823,False
+2015-2016,Race,Other Race/Multi-Racial,NLR,None vs High,194,956,-5.054,0.0,True
+2015-2016,Race,Other Race/Multi-Racial,MLR,None vs High,194,956,-3.787,0.00019,True
+2015-2016,Race,Other Race/Multi-Racial,PLR,None vs High,194,956,-3.934,0.00011,True
+2015-2016,Race,Other Race/Multi-Racial,SII,None vs High,194,956,-2.777,0.00588,True
+2015-2016,Race,Other Race/Multi-Racial,CRP,None vs High,175,939,1.239,0.2168,False
+2015-2016,Race,Other Race/Multi-Racial,BloodMercury,None vs High,153,531,-5.41,0.0,True
+2015-2016,AgeGroup,0–19,NLR,None vs Low,764,120,-4.653,1e-05,True
+2015-2016,AgeGroup,0–19,MLR,None vs Low,764,120,-2.793,0.00593,True
+2015-2016,AgeGroup,0–19,PLR,None vs Low,764,120,-5.281,0.0,True
+2015-2016,AgeGroup,0–19,SII,None vs Low,764,120,-3.571,0.00048,True
+2015-2016,AgeGroup,0–19,CRP,None vs Low,623,109,0.957,0.33923,False
+2015-2016,AgeGroup,0–19,BloodMercury,None vs Low,755,120,-0.611,0.542,False
+2015-2016,AgeGroup,0–19,NLR,None vs Medium,764,227,-5.802,0.0,True
+2015-2016,AgeGroup,0–19,MLR,None vs Medium,764,227,-4.228,3e-05,True
+2015-2016,AgeGroup,0–19,PLR,None vs Medium,764,227,-6.198,0.0,True
+2015-2016,AgeGroup,0–19,SII,None vs Medium,764,227,-5.297,0.0,True
+2015-2016,AgeGroup,0–19,CRP,None vs Medium,623,216,0.248,0.80415,False
+2015-2016,AgeGroup,0–19,BloodMercury,None vs Medium,755,230,-1.363,0.17348,False
+2015-2016,AgeGroup,0–19,NLR,None vs High,764,1823,-24.567,0.0,True
+2015-2016,AgeGroup,0–19,MLR,None vs High,764,1823,-17.189,0.0,True
+2015-2016,AgeGroup,0–19,PLR,None vs High,764,1823,-18.03,0.0,True
+2015-2016,AgeGroup,0–19,SII,None vs High,764,1823,-15.598,0.0,True
+2015-2016,AgeGroup,0–19,CRP,None vs High,623,1786,-0.363,0.71675,False
+2015-2016,AgeGroup,0–19,BloodMercury,None vs High,755,1273,-3.145,0.0017,True
+2015-2016,AgeGroup,20–39,NLR,None vs High,85,1642,0.664,0.50831,False
+2015-2016,AgeGroup,20–39,MLR,None vs High,85,1642,-0.124,0.90163,False
+2015-2016,AgeGroup,20–39,PLR,None vs High,85,1642,-1.142,0.25612,False
+2015-2016,AgeGroup,20–39,SII,None vs High,85,1642,-0.082,0.93446,False
+2015-2016,AgeGroup,20–39,CRP,None vs High,84,1634,0.848,0.39866,False
+2015-2016,AgeGroup,20–39,BloodMercury,None vs High,49,816,-0.265,0.79173,False
+2015-2016,AgeGroup,40–59,NLR,None vs Low,145,16,-0.176,0.8619,False
+2015-2016,AgeGroup,40–59,MLR,None vs Low,145,16,0.058,0.95421,False
+2015-2016,AgeGroup,40–59,PLR,None vs Low,145,16,0.453,0.65636,False
+2015-2016,AgeGroup,40–59,SII,None vs Low,145,16,-0.912,0.3735,False
+2015-2016,AgeGroup,40–59,CRP,None vs Low,142,16,-0.692,0.49622,False
+2015-2016,AgeGroup,40–59,NLR,None vs Medium,145,43,-0.307,0.75944,False
+2015-2016,AgeGroup,40–59,MLR,None vs Medium,145,43,-0.813,0.41947,False
+2015-2016,AgeGroup,40–59,PLR,None vs Medium,145,43,-0.357,0.72175,False
+2015-2016,AgeGroup,40–59,SII,None vs Medium,145,43,-0.834,0.40702,False
+2015-2016,AgeGroup,40–59,CRP,None vs Medium,142,41,-1.085,0.28316,False
+2015-2016,AgeGroup,40–59,BloodMercury,None vs Medium,61,27,2.998,0.00356,True
+2015-2016,AgeGroup,40–59,NLR,None vs High,145,1517,1.092,0.27655,False
+2015-2016,AgeGroup,40–59,MLR,None vs High,145,1517,0.086,0.93159,False
+2015-2016,AgeGroup,40–59,PLR,None vs High,145,1517,-1.048,0.29602,False
+2015-2016,AgeGroup,40–59,SII,None vs High,145,1517,0.303,0.7625,False
+2015-2016,AgeGroup,40–59,CRP,None vs High,142,1511,0.039,0.96855,False
+2015-2016,AgeGroup,40–59,BloodMercury,None vs High,61,761,-1.172,0.24409,False
+2015-2016,AgeGroup,60+,NLR,None vs Low,331,63,0.186,0.85307,False
+2015-2016,AgeGroup,60+,MLR,None vs Low,331,63,0.647,0.51922,False
+2015-2016,AgeGroup,60+,PLR,None vs Low,331,63,1.152,0.25205,False
+2015-2016,AgeGroup,60+,SII,None vs Low,331,63,0.386,0.69988,False
+2015-2016,AgeGroup,60+,CRP,None vs Low,322,57,-0.439,0.66185,False
+2015-2016,AgeGroup,60+,BloodMercury,None vs Low,171,29,-0.147,0.88374,False
+2015-2016,AgeGroup,60+,NLR,None vs Medium,331,161,-0.051,0.95958,False
+2015-2016,AgeGroup,60+,MLR,None vs Medium,331,161,0.007,0.99451,False
+2015-2016,AgeGroup,60+,PLR,None vs Medium,331,161,0.052,0.95873,False
+2015-2016,AgeGroup,60+,SII,None vs Medium,331,161,0.421,0.67372,False
+2015-2016,AgeGroup,60+,CRP,None vs Medium,322,160,-0.327,0.74419,False
+2015-2016,AgeGroup,60+,BloodMercury,None vs Medium,171,79,0.183,0.85477,False
+2015-2016,AgeGroup,60+,NLR,None vs High,331,1170,2.091,0.03717,True
+2015-2016,AgeGroup,60+,MLR,None vs High,331,1170,2.509,0.01243,True
+2015-2016,AgeGroup,60+,PLR,None vs High,331,1170,1.386,0.16643,False
+2015-2016,AgeGroup,60+,SII,None vs High,331,1170,1.908,0.05714,False
+2015-2016,AgeGroup,60+,CRP,None vs High,322,1157,2.632,0.00882,True
+2015-2016,AgeGroup,60+,BloodMercury,None vs High,171,605,-3.239,0.00128,True
+2017-2018,Gender,Female,NLR,None vs Low,588,80,-2.292,0.02425,True
+2017-2018,Gender,Female,MLR,None vs Low,588,80,-2.122,0.03645,True
+2017-2018,Gender,Female,PLR,None vs Low,588,80,-2.939,0.00418,True
+2017-2018,Gender,Female,SII,None vs Low,588,80,-2.201,0.03015,True
+2017-2018,Gender,Female,CRP,None vs Low,551,77,0.229,0.81968,False
+2017-2018,Gender,Female,BloodMercury,None vs Low,584,80,1.17,0.24302,False
+2017-2018,Gender,Female,NLR,None vs Medium,588,193,-1.352,0.17716,False
+2017-2018,Gender,Female,MLR,None vs Medium,588,193,-0.922,0.35729,False
+2017-2018,Gender,Female,PLR,None vs Medium,588,193,-2.106,0.03602,True
+2017-2018,Gender,Female,SII,None vs Medium,588,193,-1.359,0.17493,False
+2017-2018,Gender,Female,CRP,None vs Medium,551,184,-1.987,0.04797,True
+2017-2018,Gender,Female,BloodMercury,None vs Medium,584,194,2.22,0.02671,True
+2017-2018,Gender,Female,NLR,None vs High,588,2991,-7.513,0.0,True
+2017-2018,Gender,Female,MLR,None vs High,588,2991,-3.295,0.00103,True
+2017-2018,Gender,Female,PLR,None vs High,588,2991,-7.504,0.0,True
+2017-2018,Gender,Female,SII,None vs High,588,2991,-6.589,0.0,True
+2017-2018,Gender,Female,CRP,None vs High,551,2913,-1.615,0.1067,False
+2017-2018,Gender,Female,BloodMercury,None vs High,584,2989,-3.373,0.00078,True
+2017-2018,Gender,Male,NLR,None vs Low,612,104,-3.332,0.00113,True
+2017-2018,Gender,Male,MLR,None vs Low,612,104,-3.258,0.00143,True
+2017-2018,Gender,Male,PLR,None vs Low,612,104,-2.196,0.03015,True
+2017-2018,Gender,Male,SII,None vs Low,612,104,-2.837,0.00538,True
+2017-2018,Gender,Male,CRP,None vs Low,550,98,-1.035,0.30266,False
+2017-2018,Gender,Male,BloodMercury,None vs Low,609,103,-1.17,0.24374,False
+2017-2018,Gender,Male,NLR,None vs Medium,612,211,-1.874,0.06166,False
+2017-2018,Gender,Male,MLR,None vs Medium,612,211,-0.556,0.57875,False
+2017-2018,Gender,Male,PLR,None vs Medium,612,211,-2.608,0.00945,True
+2017-2018,Gender,Male,SII,None vs Medium,612,211,-1.552,0.1215,False
+2017-2018,Gender,Male,CRP,None vs Medium,550,202,2.144,0.03236,True
+2017-2018,Gender,Male,BloodMercury,None vs Medium,609,210,-0.588,0.55667,False
+2017-2018,Gender,Male,NLR,None vs High,612,2744,-5.159,0.0,True
+2017-2018,Gender,Male,MLR,None vs High,612,2744,-2.562,0.01059,True
+2017-2018,Gender,Male,PLR,None vs High,612,2744,-3.14,0.00175,True
+2017-2018,Gender,Male,SII,None vs High,612,2744,-2.548,0.01102,True
+2017-2018,Gender,Male,CRP,None vs High,550,2675,0.216,0.82915,False
+2017-2018,Gender,Male,BloodMercury,None vs High,609,2744,-6.931,0.0,True
+2017-2018,Race,Mexican American,NLR,None vs Low,144,19,-1.958,0.06454,False
+2017-2018,Race,Mexican American,MLR,None vs Low,144,19,-1.355,0.19089,False
+2017-2018,Race,Mexican American,PLR,None vs Low,144,19,-1.969,0.06183,False
+2017-2018,Race,Mexican American,SII,None vs Low,144,19,-1.804,0.08524,False
+2017-2018,Race,Mexican American,CRP,None vs Low,126,19,0.681,0.50025,False
+2017-2018,Race,Mexican American,BloodMercury,None vs Low,141,19,2.653,0.00885,True
+2017-2018,Race,Mexican American,NLR,None vs Medium,144,49,-2.531,0.01353,True
+2017-2018,Race,Mexican American,MLR,None vs Medium,144,49,-1.492,0.14006,False
+2017-2018,Race,Mexican American,PLR,None vs Medium,144,49,-2.562,0.01254,True
+2017-2018,Race,Mexican American,SII,None vs Medium,144,49,-2.144,0.03503,True
+2017-2018,Race,Mexican American,CRP,None vs Medium,126,47,-0.121,0.90408,False
+2017-2018,Race,Mexican American,BloodMercury,None vs Medium,141,49,-0.831,0.40975,False
+2017-2018,Race,Mexican American,NLR,None vs High,144,924,-9.783,0.0,True
+2017-2018,Race,Mexican American,MLR,None vs High,144,924,-6.164,0.0,True
+2017-2018,Race,Mexican American,PLR,None vs High,144,924,-7.054,0.0,True
+2017-2018,Race,Mexican American,SII,None vs High,144,924,-7.953,0.0,True
+2017-2018,Race,Mexican American,CRP,None vs High,126,905,-0.518,0.60531,False
+2017-2018,Race,Mexican American,BloodMercury,None vs High,141,925,-3.268,0.00123,True
+2017-2018,Race,Non-Hispanic Black,NLR,None vs Low,270,48,-2.303,0.02451,True
+2017-2018,Race,Non-Hispanic Black,MLR,None vs Low,270,48,-1.897,0.06218,False
+2017-2018,Race,Non-Hispanic Black,PLR,None vs Low,270,48,-1.795,0.07865,False
+2017-2018,Race,Non-Hispanic Black,SII,None vs Low,270,48,-1.963,0.05504,False
+2017-2018,Race,Non-Hispanic Black,CRP,None vs Low,241,46,-0.252,0.80181,False
+2017-2018,Race,Non-Hispanic Black,BloodMercury,None vs Low,269,48,-2.336,0.02331,True
+2017-2018,Race,Non-Hispanic Black,NLR,None vs Medium,270,114,-1.719,0.08714,False
+2017-2018,Race,Non-Hispanic Black,MLR,None vs Medium,270,114,-0.716,0.47493,False
+2017-2018,Race,Non-Hispanic Black,PLR,None vs Medium,270,114,-2.015,0.04523,True
+2017-2018,Race,Non-Hispanic Black,SII,None vs Medium,270,114,-1.642,0.10227,False
+2017-2018,Race,Non-Hispanic Black,CRP,None vs Medium,241,107,0.336,0.73747,False
+2017-2018,Race,Non-Hispanic Black,BloodMercury,None vs Medium,269,114,-0.412,0.68107,False
+2017-2018,Race,Non-Hispanic Black,NLR,None vs High,270,1279,-3.336,0.00093,True
+2017-2018,Race,Non-Hispanic Black,MLR,None vs High,270,1279,-1.412,0.15877,False
+2017-2018,Race,Non-Hispanic Black,PLR,None vs High,270,1279,-3.127,0.0019,True
+2017-2018,Race,Non-Hispanic Black,SII,None vs High,270,1279,-3.292,0.00108,True
+2017-2018,Race,Non-Hispanic Black,CRP,None vs High,241,1233,-0.697,0.48654,False
+2017-2018,Race,Non-Hispanic Black,BloodMercury,None vs High,269,1277,-7.173,0.0,True
+2017-2018,Race,Non-Hispanic White,NLR,None vs Low,484,71,-3.556,0.00065,True
+2017-2018,Race,Non-Hispanic White,MLR,None vs Low,484,71,-3.494,0.00076,True
+2017-2018,Race,Non-Hispanic White,PLR,None vs Low,484,71,-2.994,0.0037,True
+2017-2018,Race,Non-Hispanic White,SII,None vs Low,484,71,-3.518,0.00073,True
+2017-2018,Race,Non-Hispanic White,CRP,None vs Low,444,67,-1.209,0.2305,False
+2017-2018,Race,Non-Hispanic White,BloodMercury,None vs Low,482,70,-1.408,0.16298,False
+2017-2018,Race,Non-Hispanic White,NLR,None vs Medium,484,146,-1.6,0.11098,False
+2017-2018,Race,Non-Hispanic White,MLR,None vs Medium,484,146,-0.551,0.58214,False
+2017-2018,Race,Non-Hispanic White,PLR,None vs Medium,484,146,-1.154,0.24976,False
+2017-2018,Race,Non-Hispanic White,SII,None vs Medium,484,146,-1.255,0.21058,False
+2017-2018,Race,Non-Hispanic White,CRP,None vs Medium,444,141,-0.72,0.47224,False
+2017-2018,Race,Non-Hispanic White,BloodMercury,None vs Medium,482,147,-1.383,0.16808,False
+2017-2018,Race,Non-Hispanic White,NLR,None vs High,484,1838,-6.19,0.0,True
+2017-2018,Race,Non-Hispanic White,MLR,None vs High,484,1838,-2.378,0.0177,True
+2017-2018,Race,Non-Hispanic White,PLR,None vs High,484,1838,-4.981,0.0,True
+2017-2018,Race,Non-Hispanic White,SII,None vs High,484,1838,-4.617,0.0,True
+2017-2018,Race,Non-Hispanic White,CRP,None vs High,444,1801,-0.466,0.64154,False
+2017-2018,Race,Non-Hispanic White,BloodMercury,None vs High,482,1837,-11.216,0.0,True
+2017-2018,Race,Other Hispanic,NLR,None vs Low,110,15,-0.169,0.86735,False
+2017-2018,Race,Other Hispanic,MLR,None vs Low,110,15,-1.024,0.31895,False
+2017-2018,Race,Other Hispanic,PLR,None vs Low,110,15,-0.026,0.97972,False
+2017-2018,Race,Other Hispanic,SII,None vs Low,110,15,0.577,0.56917,False
+2017-2018,Race,Other Hispanic,CRP,None vs Low,106,13,1.246,0.22516,False
+2017-2018,Race,Other Hispanic,BloodMercury,None vs Low,111,15,0.738,0.46364,False
+2017-2018,Race,Other Hispanic,NLR,None vs Medium,110,30,-0.947,0.34758,False
+2017-2018,Race,Other Hispanic,MLR,None vs Medium,110,30,-1.973,0.05369,False
+2017-2018,Race,Other Hispanic,PLR,None vs Medium,110,30,-1.785,0.08103,False
+2017-2018,Race,Other Hispanic,SII,None vs Medium,110,30,-0.923,0.36052,False
+2017-2018,Race,Other Hispanic,CRP,None vs Medium,106,27,0.285,0.77678,False
+2017-2018,Race,Other Hispanic,BloodMercury,None vs Medium,111,29,1.764,0.07989,False
+2017-2018,Race,Other Hispanic,NLR,None vs High,110,527,-2.135,0.03452,True
+2017-2018,Race,Other Hispanic,MLR,None vs High,110,527,-1.882,0.06181,False
+2017-2018,Race,Other Hispanic,PLR,None vs High,110,527,-2.262,0.0251,True
+2017-2018,Race,Other Hispanic,SII,None vs High,110,527,-1.264,0.20832,False
+2017-2018,Race,Other Hispanic,CRP,None vs High,106,513,-0.105,0.91675,False
+2017-2018,Race,Other Hispanic,BloodMercury,None vs High,111,527,0.265,0.79179,False
+2017-2018,Race,Other Race/Multi-Racial,NLR,None vs Low,192,31,0.092,0.9272,False
+2017-2018,Race,Other Race/Multi-Racial,MLR,None vs Low,192,31,-0.242,0.81005,False
+2017-2018,Race,Other Race/Multi-Racial,PLR,None vs Low,192,31,0.488,0.62781,False
+2017-2018,Race,Other Race/Multi-Racial,SII,None vs Low,192,31,1.211,0.23,False
+2017-2018,Race,Other Race/Multi-Racial,CRP,None vs Low,184,30,1.337,0.18589,False
+2017-2018,Race,Other Race/Multi-Racial,BloodMercury,None vs Low,190,31,1.545,0.12616,False
+2017-2018,Race,Other Race/Multi-Racial,NLR,None vs Medium,192,65,0.603,0.54695,False
+2017-2018,Race,Other Race/Multi-Racial,MLR,None vs Medium,192,65,1.21,0.22785,False
+2017-2018,Race,Other Race/Multi-Racial,PLR,None vs Medium,192,65,-0.594,0.55341,False
+2017-2018,Race,Other Race/Multi-Racial,SII,None vs Medium,192,65,0.138,0.89065,False
+2017-2018,Race,Other Race/Multi-Racial,CRP,None vs Medium,184,64,-0.635,0.52778,False
+2017-2018,Race,Other Race/Multi-Racial,BloodMercury,None vs Medium,190,65,2.07,0.03956,True
+2017-2018,Race,Other Race/Multi-Racial,NLR,None vs High,192,1167,-1.95,0.05246,False
+2017-2018,Race,Other Race/Multi-Racial,MLR,None vs High,192,1167,-0.747,0.45604,False
+2017-2018,Race,Other Race/Multi-Racial,PLR,None vs High,192,1167,-1.447,0.14932,False
+2017-2018,Race,Other Race/Multi-Racial,SII,None vs High,192,1167,-0.581,0.56157,False
+2017-2018,Race,Other Race/Multi-Racial,CRP,None vs High,184,1136,-1.445,0.14889,False
+2017-2018,Race,Other Race/Multi-Racial,BloodMercury,None vs High,190,1167,-1.445,0.14957,False
+2017-2018,AgeGroup,0–19,NLR,None vs Low,629,81,-3.98,0.00013,True
+2017-2018,AgeGroup,0–19,MLR,None vs Low,629,81,-1.908,0.0591,False
+2017-2018,AgeGroup,0–19,PLR,None vs Low,629,81,-3.189,0.00184,True
+2017-2018,AgeGroup,0–19,SII,None vs Low,629,81,-3.255,0.00152,True
+2017-2018,AgeGroup,0–19,CRP,None vs Low,550,73,2.798,0.00535,True
+2017-2018,AgeGroup,0–19,BloodMercury,None vs Low,623,80,-0.705,0.48256,False
+2017-2018,AgeGroup,0–19,NLR,None vs Medium,629,190,-4.698,0.0,True
+2017-2018,AgeGroup,0–19,MLR,None vs Medium,629,190,-2.226,0.0265,True
+2017-2018,AgeGroup,0–19,PLR,None vs Medium,629,190,-4.933,0.0,True
+2017-2018,AgeGroup,0–19,SII,None vs Medium,629,190,-2.951,0.00335,True
+2017-2018,AgeGroup,0–19,CRP,None vs Medium,550,180,0.65,0.51628,False
+2017-2018,AgeGroup,0–19,BloodMercury,None vs Medium,623,189,-1.712,0.08804,False
+2017-2018,AgeGroup,0–19,NLR,None vs High,629,1599,-16.179,0.0,True
+2017-2018,AgeGroup,0–19,MLR,None vs High,629,1599,-9.776,0.0,True
+2017-2018,AgeGroup,0–19,PLR,None vs High,629,1599,-12.491,0.0,True
+2017-2018,AgeGroup,0–19,SII,None vs High,629,1599,-10.388,0.0,True
+2017-2018,AgeGroup,0–19,CRP,None vs High,550,1538,-1.228,0.21964,False
+2017-2018,AgeGroup,0–19,BloodMercury,None vs High,623,1600,-5.986,0.0,True
+2017-2018,AgeGroup,20–39,NLR,None vs High,62,1427,0.434,0.66573,False
+2017-2018,AgeGroup,20–39,MLR,None vs High,62,1427,-0.567,0.57271,False
+2017-2018,AgeGroup,20–39,PLR,None vs High,62,1427,0.552,0.5827,False
+2017-2018,AgeGroup,20–39,SII,None vs High,62,1427,1.224,0.22516,False
+2017-2018,AgeGroup,20–39,CRP,None vs High,60,1403,0.466,0.6431,False
+2017-2018,AgeGroup,20–39,BloodMercury,None vs High,62,1423,-1.2,0.23392,False
+2017-2018,AgeGroup,40–59,NLR,None vs Low,114,13,-0.463,0.6511,False
+2017-2018,AgeGroup,40–59,MLR,None vs Low,114,13,-0.28,0.78407,False
+2017-2018,AgeGroup,40–59,PLR,None vs Low,114,13,-0.254,0.80336,False
+2017-2018,AgeGroup,40–59,SII,None vs Low,114,13,-0.486,0.63494,False
+2017-2018,AgeGroup,40–59,CRP,None vs Low,108,13,2.73,0.00735,True
+2017-2018,AgeGroup,40–59,BloodMercury,None vs Low,114,13,0.42,0.67878,False
+2017-2018,AgeGroup,40–59,NLR,None vs Medium,114,50,0.562,0.5751,False
+2017-2018,AgeGroup,40–59,MLR,None vs Medium,114,50,0.944,0.34725,False
+2017-2018,AgeGroup,40–59,PLR,None vs Medium,114,50,-0.434,0.66514,False
+2017-2018,AgeGroup,40–59,SII,None vs Medium,114,50,-0.297,0.76699,False
+2017-2018,AgeGroup,40–59,CRP,None vs Medium,108,49,0.556,0.57874,False
+2017-2018,AgeGroup,40–59,BloodMercury,None vs Medium,114,51,2.484,0.01431,True
+2017-2018,AgeGroup,40–59,NLR,None vs High,114,1409,1.487,0.13951,False
+2017-2018,AgeGroup,40–59,MLR,None vs High,114,1409,0.923,0.35796,False
+2017-2018,AgeGroup,40–59,PLR,None vs High,114,1409,0.819,0.4143,False
+2017-2018,AgeGroup,40–59,SII,None vs High,114,1409,1.424,0.15677,False
+2017-2018,AgeGroup,40–59,CRP,None vs High,108,1378,1.528,0.12925,False
+2017-2018,AgeGroup,40–59,BloodMercury,None vs High,114,1411,0.03,0.97636,False
+2017-2018,AgeGroup,60+,NLR,None vs Low,395,89,-2.087,0.03924,True
+2017-2018,AgeGroup,60+,MLR,None vs Low,395,89,-2.292,0.02366,True
+2017-2018,AgeGroup,60+,PLR,None vs Low,395,89,-2.381,0.01916,True
+2017-2018,AgeGroup,60+,SII,None vs Low,395,89,-2.088,0.03931,True
+2017-2018,AgeGroup,60+,CRP,None vs Low,383,88,-1.427,0.15661,False
+2017-2018,AgeGroup,60+,BloodMercury,None vs Low,394,89,0.543,0.58737,False
+2017-2018,AgeGroup,60+,NLR,None vs Medium,395,155,0.547,0.5851,False
+2017-2018,AgeGroup,60+,MLR,None vs Medium,395,155,1.125,0.26165,False
+2017-2018,AgeGroup,60+,PLR,None vs Medium,395,155,-0.161,0.87225,False
+2017-2018,AgeGroup,60+,SII,None vs Medium,395,155,-0.023,0.98171,False
+2017-2018,AgeGroup,60+,CRP,None vs Medium,383,148,-0.985,0.3257,False
+2017-2018,AgeGroup,60+,BloodMercury,None vs Medium,394,155,0.769,0.44257,False
+2017-2018,AgeGroup,60+,NLR,None vs High,395,1300,2.121,0.0343,True
+2017-2018,AgeGroup,60+,MLR,None vs High,395,1300,2.892,0.00396,True
+2017-2018,AgeGroup,60+,PLR,None vs High,395,1300,0.014,0.9887,False
+2017-2018,AgeGroup,60+,SII,None vs High,395,1300,1.458,0.14535,False
+2017-2018,AgeGroup,60+,CRP,None vs High,383,1269,0.923,0.35628,False
+2017-2018,AgeGroup,60+,BloodMercury,None vs High,394,1299,-3.699,0.00023,True
