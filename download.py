@@ -23,6 +23,7 @@ FILE_SUFFIXES = {
         "Mercury": "LAB06HM.xpt",
         "BMI": "BMX.xpt",
         "Smoking": "SMQ.xpt",
+        "Alcohol": "ALQ.xpt",
         "Diabetes": "DIQ.xpt",
     },
     "2001-2002": {
@@ -32,6 +33,7 @@ FILE_SUFFIXES = {
         "Mercury": "L06_2_B.xpt",
         "BMI": "BMX_B.xpt",
         "Smoking": "SMQ_B.xpt",
+        "Alcohol": "ALQ_B.xpt",
         "Diabetes": "DIQ_B.xpt",
     },
     "2003-2004": {
@@ -41,6 +43,7 @@ FILE_SUFFIXES = {
         "Mercury": "L06BMT_C.xpt",
         "BMI": "BMX_C.xpt",
         "Smoking": "SMQ_C.xpt",
+        "Alcohol": "ALQ_C.xpt",
         "Diabetes": "DIQ_C.xpt",
     },
     "2005-2006": {
@@ -51,6 +54,7 @@ FILE_SUFFIXES = {
         "Mercury": "PbCd_D.xpt",
         "BMI": "BMX_D.xpt",
         "Smoking": "SMQ_D.xpt",
+        "Alcohol": "ALQ_D.xpt",
         "Diabetes": "DIQ_D.xpt",
     },
     "2007-2008": {
@@ -61,6 +65,7 @@ FILE_SUFFIXES = {
         "Mercury": "PbCd_E.xpt",
         "BMI": "BMX_E.xpt",
         "Smoking": "SMQ_E.xpt",
+        "Alcohol": "ALQ_E.xpt",
         "Diabetes": "DIQ_E.xpt",
     },
     "2009-2010": {
@@ -70,6 +75,7 @@ FILE_SUFFIXES = {
         "Mercury": "PbCd_F.xpt",
         "BMI": "BMX_F.xpt",
         "Smoking": "SMQ_F.xpt",
+        "Alcohol": "ALQ_F.xpt",
         "Diabetes": "DIQ_F.xpt",
     },
     "2011-2012": {
@@ -79,6 +85,7 @@ FILE_SUFFIXES = {
         "Mercury": "PbCd_G.xpt",
         "BMI": "BMX_G.xpt",
         "Smoking": "SMQ_G.xpt",
+        "Alcohol": "ALQ_G.xpt",
         "Diabetes": "DIQ_G.xpt",
     },
     "2013-2014": {
@@ -88,6 +95,7 @@ FILE_SUFFIXES = {
         "Mercury": "PBCD_H.xpt",
         "BMI": "BMX_H.xpt",
         "Smoking": "SMQ_H.xpt",
+        "Alcohol": "ALQ_H.xpt",
         "Diabetes": "DIQ_H.xpt",
     },
     "2015-2016": {
@@ -97,6 +105,7 @@ FILE_SUFFIXES = {
         "Mercury": "PBCD_I.xpt",
         "BMI": "BMX_I.xpt",
         "Smoking": "SMQ_I.xpt",
+        "Alcohol": "ALQ_I.xpt",
         "Diabetes": "DIQ_I.xpt",
     },
     "2017-2018": {
@@ -106,6 +115,7 @@ FILE_SUFFIXES = {
         "Mercury": "PBCD_J.xpt",
         "BMI": "BMX_J.xpt",
         "Smoking": "SMQ_J.xpt",
+        "Alcohol": "ALQ_J.xpt",
         "Diabetes": "DIQ_J.xpt",
     },
 }
