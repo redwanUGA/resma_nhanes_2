@@ -5,6 +5,7 @@ Cycle,Label,Filename,Status
 1999-2000,Mercury,LAB06HM.xpt,success
 1999-2000,BMI,BMX.xpt,success
 1999-2000,Smoking,SMQ.xpt,success
+1999-2000,Alcohol,ALQ.xpt,success
 1999-2000,Diabetes,DIQ.xpt,success
 1999-2000,CBC,L40_0.xpt,failed
 2001-2002,Demographics,DEMO_B.xpt,success
@@ -13,6 +14,7 @@ Cycle,Label,Filename,Status
 2001-2002,Mercury,L06_2_B.xpt,success
 2001-2002,BMI,BMX_B.xpt,success
 2001-2002,Smoking,SMQ_B.xpt,success
+2001-2002,Alcohol,ALQ_B.xpt,success
 2001-2002,Diabetes,DIQ_B.xpt,success
 2001-2002,CBC,L25_B.xpt,success
 2003-2004,Demographics,DEMO_C.xpt,success
@@ -21,6 +23,7 @@ Cycle,Label,Filename,Status
 2003-2004,Mercury,L06BMT_C.xpt,success
 2003-2004,BMI,BMX_C.xpt,success
 2003-2004,Smoking,SMQ_C.xpt,success
+2003-2004,Alcohol,ALQ_C.xpt,success
 2003-2004,Diabetes,DIQ_C.xpt,success
 2003-2004,CBC,L25_C.xpt,success
 2005-2006,Demographics,DEMO_D.xpt,success
@@ -29,6 +32,7 @@ Cycle,Label,Filename,Status
 2005-2006,Mercury,PbCd_D.xpt,success
 2005-2006,BMI,BMX_D.xpt,success
 2005-2006,Smoking,SMQ_D.xpt,success
+2005-2006,Alcohol,ALQ_D.xpt,success
 2005-2006,Diabetes,DIQ_D.xpt,success
 2005-2006,CBC,CBC_D.xpt,success
 2007-2008,Demographics,DEMO_E.xpt,success
@@ -37,6 +41,7 @@ Cycle,Label,Filename,Status
 2007-2008,Mercury,PbCd_E.xpt,success
 2007-2008,BMI,BMX_E.xpt,success
 2007-2008,Smoking,SMQ_E.xpt,success
+2007-2008,Alcohol,ALQ_E.xpt,success
 2007-2008,Diabetes,DIQ_E.xpt,success
 2007-2008,CBC,CBC_E.xpt,success
 2009-2010,Demographics,DEMO_F.xpt,success
@@ -45,6 +50,7 @@ Cycle,Label,Filename,Status
 2009-2010,Mercury,PbCd_F.xpt,success
 2009-2010,BMI,BMX_F.xpt,success
 2009-2010,Smoking,SMQ_F.xpt,success
+2009-2010,Alcohol,ALQ_F.xpt,success
 2009-2010,Diabetes,DIQ_F.xpt,success
 2009-2010,CBC,CBC_F.xpt,success
 2011-2012,Demographics,DEMO_G.xpt,success
@@ -53,6 +59,7 @@ Cycle,Label,Filename,Status
 2011-2012,Mercury,PbCd_G.xpt,success
 2011-2012,BMI,BMX_G.xpt,success
 2011-2012,Smoking,SMQ_G.xpt,success
+2011-2012,Alcohol,ALQ_G.xpt,success
 2011-2012,Diabetes,DIQ_G.xpt,success
 2011-2012,CBC,CBC_G.xpt,success
 2013-2014,Demographics,DEMO_H.xpt,success
@@ -61,6 +68,7 @@ Cycle,Label,Filename,Status
 2013-2014,Mercury,PBCD_H.xpt,success
 2013-2014,BMI,BMX_H.xpt,success
 2013-2014,Smoking,SMQ_H.xpt,success
+2013-2014,Alcohol,ALQ_H.xpt,success
 2013-2014,Diabetes,DIQ_H.xpt,success
 2013-2014,CBC,CBC_H.xpt,success
 2015-2016,Demographics,DEMO_I.xpt,success
@@ -69,6 +77,7 @@ Cycle,Label,Filename,Status
 2015-2016,Mercury,PBCD_I.xpt,success
 2015-2016,BMI,BMX_I.xpt,success
 2015-2016,Smoking,SMQ_I.xpt,success
+2015-2016,Alcohol,ALQ_I.xpt,success
 2015-2016,Diabetes,DIQ_I.xpt,success
 2015-2016,CBC,CBC_I.xpt,success
 2017-2018,Demographics,DEMO_J.xpt,success
@@ -77,5 +86,6 @@ Cycle,Label,Filename,Status
 2017-2018,Mercury,PBCD_J.xpt,success
 2017-2018,BMI,BMX_J.xpt,success
 2017-2018,Smoking,SMQ_J.xpt,success
+2017-2018,Alcohol,ALQ_J.xpt,success
 2017-2018,Diabetes,DIQ_J.xpt,success
 2017-2018,CBC,CBC_J.xpt,success
